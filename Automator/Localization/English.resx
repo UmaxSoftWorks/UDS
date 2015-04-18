@@ -1,0 +1,1023 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="FTP" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="GeneralArchive" xml:space="preserve">
+    <value>Archive doorway</value>
+  </data>
+  <data name="GeneralArchiveName" xml:space="preserve">
+    <value>Archive name</value>
+  </data>
+  <data name="GeneralArchiveNameDescription" xml:space="preserve">
+    <value>Archive file name</value>
+  </data>
+  <data name="GeneralCreateDoorways" xml:space="preserve">
+    <value>Doorways</value>
+  </data>
+  <data name="GeneralCreateDoorwaysDescription" xml:space="preserve">
+    <value>Number of doorways that should be created. Minimum: 1.</value>
+  </data>
+  <data name="GeneralCreateSubFolders" xml:space="preserve">
+    <value>Create sub folders</value>
+  </data>
+  <data name="GeneralThreads" xml:space="preserve">
+    <value>Threads</value>
+  </data>
+  <data name="GeneralThreadsDescription" xml:space="preserve">
+    <value>Number of threads in which doorways will be created. Minimum: 1. Maximum: 10.</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="Pages" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="Robots" xml:space="preserve">
+    <value>Robots</value>
+  </data>
+  <data name="RSS" xml:space="preserve">
+    <value>RSS</value>
+  </data>
+  <data name="SiteMap" xml:space="preserve">
+    <value>SiteMap</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="CategoriesDistribute" xml:space="preserve">
+    <value>Distribution type</value>
+  </data>
+  <data name="CategoriesDistributeContainsID" xml:space="preserve">
+    <value>Keywords ID for distribution</value>
+  </data>
+  <data name="CategoriesDistributeDescription" xml:space="preserve">
+    <value>Distribution types: 0 - random, 1 - if consists.</value>
+  </data>
+  <data name="CategoriesDynamicExcludeKeywords" xml:space="preserve">
+    <value>Exclude dynamic categories keywords from pages</value>
+  </data>
+  <data name="CategoriesDynamicMax" xml:space="preserve">
+    <value>Maximum number of dynamic categories</value>
+  </data>
+  <data name="CategoriesDynamicMin" xml:space="preserve">
+    <value>Minimum number of dynamic categories</value>
+  </data>
+  <data name="CategoriesStaticList" xml:space="preserve">
+    <value>List of static categories</value>
+  </data>
+  <data name="CategoriesType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CategoriesTypeDescription" xml:space="preserve">
+    <value>Types: 0 - dynamic, 1 - static.</value>
+  </data>
+  <data name="Entrance" xml:space="preserve">
+    <value>Entrance</value>
+  </data>
+  <data name="EntranceAcceptorAdress" xml:space="preserve">
+    <value>Acceptor address</value>
+  </data>
+  <data name="EntranceAcceptorAdressType" xml:space="preserve">
+    <value>Acceptor address type</value>
+  </data>
+  <data name="EntranceAcceptorAdressTypeDescription" xml:space="preserve">
+    <value>Acceptor address types: 0 - static, 1 - dynamic.</value>
+  </data>
+  <data name="EntranceCode" xml:space="preserve">
+    <value>Redirect HTML code</value>
+  </data>
+  <data name="EntranceCounter" xml:space="preserve">
+    <value>Counter HTML code</value>
+  </data>
+  <data name="EntranceInsertType" xml:space="preserve">
+    <value>Insert type</value>
+  </data>
+  <data name="EntranceInsertTypeDescription" xml:space="preserve">
+    <value>Insert types: 0 - paste, 1 - document.write, 2 - external js file.</value>
+  </data>
+  <data name="EntranceJSEncrypt" xml:space="preserve">
+    <value>Encript JavaScript</value>
+  </data>
+  <data name="EntranceType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="EntranceTypeDescription" xml:space="preserve">
+    <value>Types: 0 - redirect, 1 - frame, 2 -other.</value>
+  </data>
+  <data name="FileMacroses" xml:space="preserve">
+    <value>File Tokens</value>
+  </data>
+  <data name="FileTokens" xml:space="preserve">
+    <value>File Tokens</value>
+  </data>
+  <data name="FTPDelete" xml:space="preserve">
+    <value>Delete files after upload</value>
+  </data>
+  <data name="FTPSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="FTPThreads" xml:space="preserve">
+    <value>Upload threads number</value>
+  </data>
+  <data name="FTPUpload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="FTPUploadArchive" xml:space="preserve">
+    <value>Archive type</value>
+  </data>
+  <data name="FTPUploadArchiveDescription" xml:space="preserve">
+    <value>Archive types: 0 - none, 1 - Zip, 2 - Tag.gz.</value>
+  </data>
+  <data name="FTPUploadArchiveName" xml:space="preserve">
+    <value>Archive name</value>
+  </data>
+  <data name="FTPUploadInBackground" xml:space="preserve">
+    <value>Background upload</value>
+  </data>
+  <data name="FTPUploadSaveTo" xml:space="preserve">
+    <value>FileZilla projects path</value>
+  </data>
+  <data name="FTPUploadType" xml:space="preserve">
+    <value>Upload type</value>
+  </data>
+  <data name="FTPUploadTypeDescription" xml:space="preserve">
+    <value>Upload types: 0 - reguler, 1 - FileZilla project.</value>
+  </data>
+  <data name="GeneralDoorwayUrls" xml:space="preserve">
+    <value>URL addresses</value>
+  </data>
+  <data name="GeneralDoorwayUrlsDescription" xml:space="preserve">
+    <value>List of URL addresses</value>
+  </data>
+  <data name="GeneralFileDateEnd" xml:space="preserve">
+    <value>File end date</value>
+  </data>
+  <data name="GeneralFileDateEndDescription" xml:space="preserve">
+    <value>Modification create and modification date: end date</value>
+  </data>
+  <data name="GeneralFileDateStart" xml:space="preserve">
+    <value>File start date</value>
+  </data>
+  <data name="GeneralFileDateStartDescription" xml:space="preserve">
+    <value>Modification create and modification date: start date</value>
+  </data>
+  <data name="GeneralGenerateImagesCount" xml:space="preserve">
+    <value>Image number</value>
+  </data>
+  <data name="GeneralGenerateImagesCountDescription" xml:space="preserve">
+    <value>Image number to use: 0 - all images.</value>
+  </data>
+  <data name="GeneralImageNamingFile" xml:space="preserve">
+    <value>Image names file</value>
+  </data>
+  <data name="GeneralImageNamingType" xml:space="preserve">
+    <value>Image names type</value>
+  </data>
+  <data name="GeneralImageNamingTypeDescription" xml:space="preserve">
+    <value>Image names types: 0 - random, 1 - from file, 2 - from file (translit).</value>
+  </data>
+  <data name="GeneralImageSizeMaxHeight" xml:space="preserve">
+    <value>Maximum image height</value>
+  </data>
+  <data name="GeneralImageSizeMaxWidth" xml:space="preserve">
+    <value>Maximum image width</value>
+  </data>
+  <data name="GeneralImageSizeMinHeight" xml:space="preserve">
+    <value>Minimum image height</value>
+  </data>
+  <data name="GeneralImageSizeMinWidth" xml:space="preserve">
+    <value>Minimum image width</value>
+  </data>
+  <data name="GeneralImageType" xml:space="preserve">
+    <value>Image usage type</value>
+  </data>
+  <data name="GeneralImageTypeDescription" xml:space="preserve">
+    <value>Image usage types: 0 - from template, 1 - from template + rename, 2 - generate, 3 - from template + generate, 4 - from template + generate + rename, 5 - modify.</value>
+  </data>
+  <data name="GeneralSaveTo" xml:space="preserve">
+    <value>Save to</value>
+  </data>
+  <data name="GeneralSubFoldersType" xml:space="preserve">
+    <value>Subfolders names</value>
+  </data>
+  <data name="GeneralSubFoldersTypeDescription" xml:space="preserve">
+    <value>Subfolders names: 0 - keyword, 1 - number, 2 - keyword + number, 3 - URL</value>
+  </data>
+  <data name="KeywordsID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="KeywordsIDDescription" xml:space="preserve">
+    <value>Keywords ID from selected WorkSpace</value>
+  </data>
+  <data name="KeywordsMerge" xml:space="preserve">
+    <value>Merge</value>
+  </data>
+  <data name="KeywordsMergeID" xml:space="preserve">
+    <value>Merge keywords ID</value>
+  </data>
+  <data name="KeywordsMergeMax" xml:space="preserve">
+    <value>Maximum keywords number to merge</value>
+  </data>
+  <data name="KeywordsMergeMin" xml:space="preserve">
+    <value>Minimum keywords number to merge</value>
+  </data>
+  <data name="KeywordsMergeType" xml:space="preserve">
+    <value>Merge type</value>
+  </data>
+  <data name="KeywordsMergeTypeDescription" xml:space="preserve">
+    <value>Merge types: 0 - 1:1, 1 - 1:N, 2 - 1:All</value>
+  </data>
+  <data name="KeywordsReorder" xml:space="preserve">
+    <value>Reorder</value>
+  </data>
+  <data name="KeywordsSelectMax" xml:space="preserve">
+    <value>Maximum number</value>
+  </data>
+  <data name="KeywordsSelectMin" xml:space="preserve">
+    <value>Minimum number</value>
+  </data>
+  <data name="KeywordsSelectType" xml:space="preserve">
+    <value>Select type</value>
+  </data>
+  <data name="KeywordsSelectTypeDescription" xml:space="preserve">
+    <value>Keywords select type: 0 - all, 1 - first, 2 - last, 3 - random, 4 - consequently.</value>
+  </data>
+  <data name="KeywordsSynonyms" xml:space="preserve">
+    <value>Synonymize</value>
+  </data>
+  <data name="KeywordsSynonymsID" xml:space="preserve">
+    <value>Synonyms ID</value>
+  </data>
+  <data name="KeywordsSynonymsPercentage" xml:space="preserve">
+    <value>Synonyms percentage</value>
+  </data>
+  <data name="KeywordsWordsReorder" xml:space="preserve">
+    <value>Reorder words</value>
+  </data>
+  <data name="KeywordsWordsReorderPercentage" xml:space="preserve">
+    <value>Reorder words percentage</value>
+  </data>
+  <data name="Linking" xml:space="preserve">
+    <value>Linking</value>
+  </data>
+  <data name="LinksExternal" xml:space="preserve">
+    <value>External linking</value>
+  </data>
+  <data name="LinksExternalList" xml:space="preserve">
+    <value>List of external links</value>
+  </data>
+  <data name="LinksInternal" xml:space="preserve">
+    <value>Internal linking</value>
+  </data>
+  <data name="LinksInternalMaxLength" xml:space="preserve">
+    <value>Maximum length of internal links</value>
+  </data>
+  <data name="LinksInternalMinLength" xml:space="preserve">
+    <value>Minimum length of internal links</value>
+  </data>
+  <data name="LinksInternalType" xml:space="preserve">
+    <value>Internal linking type</value>
+  </data>
+  <data name="LinksInternalTypeDescription" xml:space="preserve">
+    <value>Internal linking types: 0 - keywords, 1 - text, 2 - all.</value>
+  </data>
+  <data name="MacrosesMainLink" xml:space="preserve">
+    <value>[MAINLINK]</value>
+  </data>
+  <data name="MacrosesMainLinkType" xml:space="preserve">
+    <value>[MAINLINK] type</value>
+  </data>
+  <data name="MacrosesMainLinkTypeDescription" xml:space="preserve">
+    <value>[MAINLINK] types: 0 - complete address, 1 - /, 2 - index, 3 - other.</value>
+  </data>
+  <data name="MacrosesSite" xml:space="preserve">
+    <value>[SITE]</value>
+  </data>
+  <data name="MacrosesTitle" xml:space="preserve">
+    <value>[TITLE]</value>
+  </data>
+  <data name="PagesDoorwayType" xml:space="preserve">
+    <value>Pages type</value>
+  </data>
+  <data name="PagesDoorwayTypeDescription" xml:space="preserve">
+    <value>Pages types: 0 - HTML, 1 - PHP + Text, 2 - PHP+ SQLite.</value>
+  </data>
+  <data name="PagesDynamicCategoriesContinues" xml:space="preserve">
+    <value>Dynamic categories continues</value>
+  </data>
+  <data name="PagesDynamicCategoriesContinuesNames1" xml:space="preserve">
+    <value>Dynamic categories continues names #1</value>
+  </data>
+  <data name="PagesDynamicCategoriesContinuesNames2" xml:space="preserve">
+    <value>Dynamic categories continues names #2</value>
+  </data>
+  <data name="PagesDynamicCategoriesNames" xml:space="preserve">
+    <value>Dynamic categories names</value>
+  </data>
+  <data name="PagesDynamicIndexContinues" xml:space="preserve">
+    <value>Dynamic index continues</value>
+  </data>
+  <data name="PagesDynamicIndexContinuesNames" xml:space="preserve">
+    <value>Dynamic index continues names</value>
+  </data>
+  <data name="PagesDynamicKeysPerPageOnContinues" xml:space="preserve">
+    <value>Number of keywords on dynamic continue page</value>
+  </data>
+  <data name="PagesDynamicPageNames" xml:space="preserve">
+    <value>Dynamic pages names</value>
+  </data>
+  <data name="PagesDynamicStaticPageNames" xml:space="preserve">
+    <value>Dynamic static pages names</value>
+  </data>
+  <data name="PagesStaticCategoriesContinues" xml:space="preserve">
+    <value>Categories continues</value>
+  </data>
+  <data name="PagesStaticCategoriesContinuesNames" xml:space="preserve">
+    <value>Categories continues names</value>
+  </data>
+  <data name="PagesStaticCategoriesNames" xml:space="preserve">
+    <value>Categories names</value>
+  </data>
+  <data name="PagesStaticExtension" xml:space="preserve">
+    <value>Extensions</value>
+  </data>
+  <data name="PagesStaticIndexContinues" xml:space="preserve">
+    <value>Index continues</value>
+  </data>
+  <data name="PagesStaticIndexContinuesNames" xml:space="preserve">
+    <value>Index continues names</value>
+  </data>
+  <data name="PagesStaticKeysPerPageOnContinues" xml:space="preserve">
+    <value>Number of keywords on continue page</value>
+  </data>
+  <data name="PagesStaticNamesTypes" xml:space="preserve">
+    <value>Name type</value>
+  </data>
+  <data name="PagesStaticNamesTypesDescription" xml:space="preserve">
+    <value>Name types: 0 - keyword, 1 - keyword (translit), 2- number (global), 3 - other, 4 - number (local)</value>
+  </data>
+  <data name="PagesStaticPageNames" xml:space="preserve">
+    <value>Pages names</value>
+  </data>
+  <data name="PagesStaticSeparator" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="RobotsContent" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="RobotsType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="RobotsTypeDescription" xml:space="preserve">
+    <value>Types: 0 - auto, 1- manual.</value>
+  </data>
+  <data name="RSSCount" xml:space="preserve">
+    <value>Number of entries</value>
+  </data>
+  <data name="SiteMapHTMLLinksMax" xml:space="preserve">
+    <value>Maximum number of pages on the page</value>
+  </data>
+  <data name="SiteMapHTMLLinksMin" xml:space="preserve">
+    <value>Minimum number of pages on the page</value>
+  </data>
+  <data name="SiteMapHTMLName" xml:space="preserve">
+    <value>HTML map name</value>
+  </data>
+  <data name="SiteMapHTMLType" xml:space="preserve">
+    <value>HTML map type</value>
+  </data>
+  <data name="SiteMapHTMLTypeDescription" xml:space="preserve">
+    <value>HTML map types: 0 - one page, 1 - many pages.</value>
+  </data>
+  <data name="SiteMapType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="SiteMapTypeDescription" xml:space="preserve">
+    <value>Types: 0 - XML, 1 - HTML, 2 - XML + HTML, 3 - Auto HTML, 4 - XML + Auto HTML.</value>
+  </data>
+  <data name="Spam" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="SpamSaveEncoding" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="SpamSaveEncodingDescription" xml:space="preserve">
+    <value>Encodings: 0 - ANSI, 1 - UTF-8.</value>
+  </data>
+  <data name="SpamSaveToFile" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SpamSaveToFilePath" xml:space="preserve">
+    <value>Save to</value>
+  </data>
+  <data name="SpamSaveToFileType" xml:space="preserve">
+    <value>Save type</value>
+  </data>
+  <data name="SpamSaveToFileTypeDescription" xml:space="preserve">
+    <value>Save types: 0 - One file/Doorway, 1 - Many files/Doorway, 2 - One file/Doorways, 3 - Many files/Doorways.</value>
+  </data>
+  <data name="SpamUrlTypeList" xml:space="preserve">
+    <value>Templates</value>
+  </data>
+  <data name="StaticPages" xml:space="preserve">
+    <value>Static pages</value>
+  </data>
+  <data name="StaticPagesIncludeIntoSiteMap" xml:space="preserve">
+    <value>Include static pages to sitemap</value>
+  </data>
+  <data name="StaticPagesList" xml:space="preserve">
+    <value>List of static pages</value>
+  </data>
+  <data name="Tokens" xml:space="preserve">
+    <value>Tokens</value>
+  </data>
+  <data name="MacrosesBlockMainMax" xml:space="preserve">
+    <value>Main: Maximum [BLOCK]</value>
+  </data>
+  <data name="MacrosesBlockMainMin" xml:space="preserve">
+    <value>Main: Minimum [BLOCK]</value>
+  </data>
+  <data name="MacrosesBlockPageMax" xml:space="preserve">
+    <value>Pages: Maximum [BLOCK]</value>
+  </data>
+  <data name="MacrosesBlockPageMin" xml:space="preserve">
+    <value>Pages: Minimum [BLOCK]</value>
+  </data>
+  <data name="MacrosesCategoryMenuBlockMainMax" xml:space="preserve">
+    <value>Main: Maximum [CATEGORYMENUBLOCK]</value>
+  </data>
+  <data name="MacrosesCategoryMenuBlockMainMin" xml:space="preserve">
+    <value>Main: Minimum [CATEGORYMENUBLOCK]</value>
+  </data>
+  <data name="MacrosesCategoryMenuBlockPageMax" xml:space="preserve">
+    <value>Pages: Maximum [CATEGORYMENUBLOCK]</value>
+  </data>
+  <data name="MacrosesCategoryMenuBlockPageMin" xml:space="preserve">
+    <value>Pages: Minimum [CATEGORYMENUBLOCK]</value>
+  </data>
+  <data name="MacrosesMenuBlockMainMax" xml:space="preserve">
+    <value>Main: Maximum [MENUBLOCK]</value>
+  </data>
+  <data name="MacrosesMenuBlockMainMin" xml:space="preserve">
+    <value>Main: Minimum [MENUBLOCK]</value>
+  </data>
+  <data name="MacrosesMenuBlockPageMax" xml:space="preserve">
+    <value>Pages: Maximum [MENUBLOCK]</value>
+  </data>
+  <data name="MacrosesMenuBlockPageMin" xml:space="preserve">
+    <value>Pages: Minimum [MENUBLOCK]</value>
+  </data>
+  <data name="MacrosesNetBlockMainMax" xml:space="preserve">
+    <value>Main: Maximum [NETBLOCK]</value>
+  </data>
+  <data name="MacrosesNetBlockMainMin" xml:space="preserve">
+    <value>Main: Minimum [NETBLOCK]</value>
+  </data>
+  <data name="MacrosesNetBlockPageMax" xml:space="preserve">
+    <value>Pages: Maximum [NETBLOCK]</value>
+  </data>
+  <data name="MacrosesNetBlockPageMin" xml:space="preserve">
+    <value>Pages: Minimum [NETBLOCK]</value>
+  </data>
+  <data name="MacrosesUserBlock1MainMax" xml:space="preserve">
+    <value>Main: Maximum [USERBLOCK1]</value>
+  </data>
+  <data name="MacrosesUserBlock1MainMin" xml:space="preserve">
+    <value>Main: Minimum [USERBLOCK1]</value>
+  </data>
+  <data name="MacrosesUserBlock1PageMax" xml:space="preserve">
+    <value>Pages: Maximum [USERBLOCK1]</value>
+  </data>
+  <data name="MacrosesUserBlock1PageMin" xml:space="preserve">
+    <value>Pages: Minimum [USERBLOCK1]</value>
+  </data>
+  <data name="MacrosesUserBlock2MainMax" xml:space="preserve">
+    <value>Main: Maximum [USERBLOCK2]</value>
+  </data>
+  <data name="MacrosesUserBlock2MainMin" xml:space="preserve">
+    <value>Main: Minimum [USERBLOCK2]</value>
+  </data>
+  <data name="MacrosesUserBlock2PageMax" xml:space="preserve">
+    <value>Pages: Maximum [USERBLOCK2]</value>
+  </data>
+  <data name="MacrosesUserBlock2PageMin" xml:space="preserve">
+    <value>Pages: Minimum [USERBLOCK2]</value>
+  </data>
+  <data name="MacrosesUserBlock3MainMax" xml:space="preserve">
+    <value>Main: Maximum [USERBLOCK3]</value>
+  </data>
+  <data name="MacrosesUserBlock3MainMin" xml:space="preserve">
+    <value>Main: Minimum [USERBLOCK3]</value>
+  </data>
+  <data name="MacrosesUserBlock3PageMax" xml:space="preserve">
+    <value>Pages: Maximum [USERBLOCK3]</value>
+  </data>
+  <data name="MacrosesUserBlock3PageMin" xml:space="preserve">
+    <value>Pages: Minimum [USERBLOCK3]</value>
+  </data>
+  <data name="MacrosesUserBlock4MainMax" xml:space="preserve">
+    <value>Main: Maximum [USERBLOCK4]</value>
+  </data>
+  <data name="MacrosesUserBlock4MainMin" xml:space="preserve">
+    <value>Main: Minimum [USERBLOCK4]</value>
+  </data>
+  <data name="MacrosesUserBlock4PageMax" xml:space="preserve">
+    <value>Pages: Maximum [USERBLOCK4]</value>
+  </data>
+  <data name="MacrosesUserBlock4PageMin" xml:space="preserve">
+    <value>Pages: Minimum [USERBLOCK4]</value>
+  </data>
+  <data name="MacrosesUserBlock5MainMax" xml:space="preserve">
+    <value>Main: Maximum [USERBLOCK5]</value>
+  </data>
+  <data name="MacrosesUserBlock5MainMin" xml:space="preserve">
+    <value>Main: Minimum [USERBLOCK5]</value>
+  </data>
+  <data name="MacrosesUserBlock5PageMax" xml:space="preserve">
+    <value>Pages: Maximum [USERBLOCK5]</value>
+  </data>
+  <data name="MacrosesUserBlock5PageMin" xml:space="preserve">
+    <value>Pages: Minimum [USERBLOCK5]</value>
+  </data>
+  <data name="MacrosesUserBlock6MainMax" xml:space="preserve">
+    <value>Main: Maximum [USERBLOCK6]</value>
+  </data>
+  <data name="MacrosesUserBlock6MainMin" xml:space="preserve">
+    <value>Main: Minimum [USERBLOCK6]</value>
+  </data>
+  <data name="MacrosesUserBlock6PageMax" xml:space="preserve">
+    <value>Pages: Maximum [USERBLOCK6]</value>
+  </data>
+  <data name="MacrosesUserBlock6PageMin" xml:space="preserve">
+    <value>Pages: Minimum [USERBLOCK6]</value>
+  </data>
+  <data name="TextGenration" xml:space="preserve">
+    <value>Text generation type</value>
+  </data>
+  <data name="TextGenrationCGConsiderProbability" xml:space="preserve">
+    <value>Probability for chains, graphs, bi/trigrams</value>
+  </data>
+  <data name="TextGenrationCGConstructionInsertWordsMax" xml:space="preserve">
+    <value>Maximum number of words for elongated construction for chains, graphs, bi/trigrams</value>
+  </data>
+  <data name="TextGenrationCGConstructionInsertWordsMin" xml:space="preserve">
+    <value>Minimum number of words for elongated construction for chains, graphs, bi/trigrams</value>
+  </data>
+  <data name="TextGenrationCGConstructionType" xml:space="preserve">
+    <value>Construction type for chains, graphs, bi/trigrams</value>
+  </data>
+  <data name="TextGenrationCGConstructionTypeDescription" xml:space="preserve">
+    <value>Construction types for chains, graphs, bi/trigrams: 0 - simple, 1 - elongated.</value>
+  </data>
+  <data name="TextGenrationCGPunctuationMarksConsideration" xml:space="preserve">
+    <value>Punctuation marks consideration type for chains, graphs, bi/trigrams</value>
+  </data>
+  <data name="TextGenrationCGPunctuationMarksConsiderationDescription" xml:space="preserve">
+    <value>Punctuation marks consideration type for chains, graphs, bi/trigrams: 0 - consider, 1 - don't consider.</value>
+  </data>
+  <data name="TextGenrationCGTextAnalyseCutWordsLength" xml:space="preserve">
+    <value>Cut words after N symbols for chains, graphs, bi/trigram</value>
+  </data>
+  <data name="TextGenrationCGTextAnalyseType" xml:space="preserve">
+    <value>Analyze type for chains, graphs, bi/trigrams</value>
+  </data>
+  <data name="TextGenrationCGTextAnalyseTypeDescription" xml:space="preserve">
+    <value>Analyze types for chains, graphs, bi/trigrams: 0 - whole words, 1 - w/o endings.</value>
+  </data>
+  <data name="TextGenrationDescription" xml:space="preserve">
+    <value>Text generatin types: 0 - Markov chain classic, 1 - Markov chain modified, 2 - conceptual graphs, 3 - bigrams, 4 -trigrams, 5 - mix, 6 - random, 7 - copy/pase, 8 - line by line copy/paste, 9 - comma connection, 10 - random comma connection, 11 - reverse, 12 - line by line reverse, 13 - advanced reverse, 14 - line by line advanced reverse, 15 - block copy/paste, 16 - block reverse, 17 - block advanced reverse.</value>
+  </data>
+  <data name="TextGenrationInsertKeywordsType" xml:space="preserve">
+    <value>Keywords insertion type</value>
+  </data>
+  <data name="TextGenrationInsertKeywordsTypeDescription" xml:space="preserve">
+    <value>Keywords insertion types: 0 - random, 1 - step, 2 - at the beginning of sentences, 3 - after punctuation marks.</value>
+  </data>
+  <data name="TextGenrationInsertKeywordsСonfusion" xml:space="preserve">
+    <value>Infelicity (±) of keywords insert</value>
+  </data>
+  <data name="TextGenrationInsertOtherKeywords" xml:space="preserve">
+    <value>Insert other keywords</value>
+  </data>
+  <data name="TextGenrationInsertOtherKeywordsPercentage" xml:space="preserve">
+    <value>Other keywords percentage</value>
+  </data>
+  <data name="TextGenrationKeywordsMoreThanOneOnPage" xml:space="preserve">
+    <value>Use more than one keyword on pages</value>
+  </data>
+  <data name="TextGenrationKeywordsOnPageMax" xml:space="preserve">
+    <value>Maximum keywords count on page</value>
+  </data>
+  <data name="TextGenrationKeywordsOnPageMin" xml:space="preserve">
+    <value>Minimum keywords count on page</value>
+  </data>
+  <data name="TextGenrationKeywordsPercentageMax" xml:space="preserve">
+    <value>Maximum percentage of keywords</value>
+  </data>
+  <data name="TextGenrationKeywordsPercentageMin" xml:space="preserve">
+    <value>Minimum percentage of keywords</value>
+  </data>
+  <data name="TextGenrationMRAIConstructionInsertWordsMax" xml:space="preserve">
+    <value>Maximum number of words for elongated construction for mix, random, copy/paste</value>
+  </data>
+  <data name="TextGenrationMRAIConstructionInsertWordsMin" xml:space="preserve">
+    <value>Minimum number of words for elongated construction for mix, random, copy/paste</value>
+  </data>
+  <data name="TextGenrationMRAIConstructionType" xml:space="preserve">
+    <value>Construction type for mix, random, copy/paste</value>
+  </data>
+  <data name="TextGenrationMRAIConstructionTypeDescription" xml:space="preserve">
+    <value>Construction types for mix, random, copy/paste:  0 - simple, 1 - elongated.</value>
+  </data>
+  <data name="TextGenrationMRAIPunctuationMarksConsideration" xml:space="preserve">
+    <value>Punctuation marks consideration type for mix, random, copy/paste</value>
+  </data>
+  <data name="TextGenrationMRAIPunctuationMarksConsiderationDescription" xml:space="preserve">
+    <value>Punctuation marks consideration type for mix, random, copy/paste: 0 - consider, 1 - don't consider.</value>
+  </data>
+  <data name="TextGenrationMRAIRadius" xml:space="preserve">
+    <value>Radius for mix, random, copy/paste</value>
+  </data>
+  <data name="TextGenrationMRAIType" xml:space="preserve">
+    <value>Generation type for mix, random, copy/paste</value>
+  </data>
+  <data name="TextGenrationMRAITypeDescription" xml:space="preserve">
+    <value>Generation types for mix, random, copy/paste: 0 - words, 1 - sentence parts, 2 - sentences.</value>
+  </data>
+  <data name="TextGenrationParagraphs" xml:space="preserve">
+    <value>Paragraphs</value>
+  </data>
+  <data name="TextGenrationParagraphsMax" xml:space="preserve">
+    <value>Maximum paragraphs count</value>
+  </data>
+  <data name="TextGenrationParagraphsMin" xml:space="preserve">
+    <value>Minimum paragraphs count</value>
+  </data>
+  <data name="TextGenrationPersentageForEachKeyword" xml:space="preserve">
+    <value>Each keyword insert percentage</value>
+  </data>
+  <data name="TextGenrationPunctuationMarks" xml:space="preserve">
+    <value>Insert punctuation marks</value>
+  </data>
+  <data name="TextGenrationPunctuationMarksInsertMax" xml:space="preserve">
+    <value>Maximum count of punctuation marks</value>
+  </data>
+  <data name="TextGenrationPunctuationMarksInsertMin" xml:space="preserve">
+    <value>Minimum count of punctuation marks</value>
+  </data>
+  <data name="TextGenrationPunctuationMarksList" xml:space="preserve">
+    <value>List of punctuation marks</value>
+  </data>
+  <data name="TextGenrationSelectKeywords" xml:space="preserve">
+    <value>Select keywords</value>
+  </data>
+  <data name="TextGenrationSelectKeywordsTags" xml:space="preserve">
+    <value>List of tags to select keywords</value>
+  </data>
+  <data name="TextGenrationSelectPercentage" xml:space="preserve">
+    <value>Percentage of keywords and phrases selection</value>
+  </data>
+  <data name="TextGenrationSelectPhrases" xml:space="preserve">
+    <value>Select phrases</value>
+  </data>
+  <data name="TextGenrationSelectPhrasesTags" xml:space="preserve">
+    <value>List of tags to select phrases</value>
+  </data>
+  <data name="TextGenrationSentencesCount" xml:space="preserve">
+    <value>Sentence count</value>
+  </data>
+  <data name="TextGenrationSentencesLength" xml:space="preserve">
+    <value>Sentence length</value>
+  </data>
+  <data name="TextGenrationSentencesLengthType" xml:space="preserve">
+    <value>Sentence length type</value>
+  </data>
+  <data name="TextGenrationSentencesLengthTypeDescription" xml:space="preserve">
+    <value>Sentence length types: 0 - random, 1 - step.</value>
+  </data>
+  <data name="TextGenrationSentencesLengthСonfusion" xml:space="preserve">
+    <value>Infelicity (±) of sentence length</value>
+  </data>
+  <data name="TextGenrationSentencesMakeBigLetters" xml:space="preserve">
+    <value>Uppercase letters at the sentence begginnigns</value>
+  </data>
+  <data name="TextGenrationTextLengthMax" xml:space="preserve">
+    <value>Maximum text length</value>
+  </data>
+  <data name="TextGenrationTextLengthMin" xml:space="preserve">
+    <value>Minimum text length</value>
+  </data>
+  <data name="S000001" xml:space="preserve">
+    <value>Starting...</value>
+  </data>
+  <data name="S000002" xml:space="preserve">
+    <value>Checking license...</value>
+  </data>
+  <data name="S000003" xml:space="preserve">
+    <value>Re-Check</value>
+  </data>
+  <data name="S000004" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="S000005" xml:space="preserve">
+    <value>Loading data...</value>
+  </data>
+  <data name="S000006" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="S000007" xml:space="preserve">
+    <value>Can't check license</value>
+  </data>
+  <data name="S000008" xml:space="preserve">
+    <value>Can't work without data</value>
+  </data>
+  <data name="S000009" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="S000010" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="S000011" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="S000012" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="S000013" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="S000014" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="S000015" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="S000016" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="S000017" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="S000018" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="S000019" xml:space="preserve">
+    <value>Tasks</value>
+  </data>
+  <data name="S000020" xml:space="preserve">
+    <value>URLs</value>
+  </data>
+  <data name="S000021" xml:space="preserve">
+    <value>Tokens</value>
+  </data>
+  <data name="S000022" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="S000023" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="S000024" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="S000025" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="S000026" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="S000027" xml:space="preserve">
+    <value>Remote dir</value>
+  </data>
+  <data name="S000028" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="S000029" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="S000030" xml:space="preserve">
+    <value>Token</value>
+  </data>
+  <data name="S000031" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="S000032" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="S000033" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="S000034" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="S000035" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="S000036" xml:space="preserve">
+    <value>Successively</value>
+  </data>
+  <data name="S000037" xml:space="preserve">
+    <value>One line/Doorway</value>
+  </data>
+  <data name="S000038" xml:space="preserve">
+    <value>Random line/Doorway</value>
+  </data>
+  <data name="S000039" xml:space="preserve">
+    <value>Generation</value>
+  </data>
+  <data name="S000040" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="S000041" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="S000042" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="S000043" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="S000044" xml:space="preserve">
+    <value>Demo version of Automator can't generate tasks.</value>
+  </data>
+  <data name="S000045" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="RSSFileName" xml:space="preserve">
+    <value>RSS file name</value>
+  </data>
+  <data name="Consequentially" xml:space="preserve">
+    <value>Consequentially</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="S000046" xml:space="preserve">
+    <value>Keywords &amp; Text usage</value>
+  </data>
+  <data name="XRumer" xml:space="preserve">
+    <value>XRumer</value>
+  </data>
+  <data name="XRumerDirectory" xml:space="preserve">
+    <value>Directory path</value>
+  </data>
+  <data name="XRumerTemplate" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="XRumerUse" xml:space="preserve">
+    <value>Create XRumer tasks</value>
+  </data>
+  <data name="XRumerText" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="LinksRelativeURLs" xml:space="preserve">
+    <value>Relative URLs</value>
+  </data>
+  <data name="LinksExternalInText" xml:space="preserve">
+    <value>External links in text</value>
+  </data>
+  <data name="LinksExternalInTextDescription" xml:space="preserve">
+    <value>Insert external links to content of [TEXT] and similar tokens.</value>
+  </data>
+  <data name="LinksExternalInTextIndexPageMaximum" xml:space="preserve">
+    <value>Maximum number of external links in text on almost all types of pages</value>
+  </data>
+  <data name="LinksExternalInTextIndexPageMaximumDescription" xml:space="preserve">
+    <value>Maximum number of external links in text on almost all types of pages, except regular pages</value>
+  </data>
+  <data name="LinksExternalInTextIndexPageMinimum" xml:space="preserve">
+    <value>Minimum number of external links in text on almost all types of pages</value>
+  </data>
+  <data name="LinksExternalInTextIndexPageMinimumDescription" xml:space="preserve">
+    <value>Minimum number of external links in text on almost all types of pages, except regular pages</value>
+  </data>
+  <data name="LinksExternalInTextRegularPageMaximum" xml:space="preserve">
+    <value>Maximum number of external links in text on regular pages</value>
+  </data>
+  <data name="LinksExternalInTextRegularPageMinimum" xml:space="preserve">
+    <value>Minimum number of external links in text on regular pages</value>
+  </data>
+</root>

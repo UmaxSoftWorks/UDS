@@ -1,0 +1,1503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="S0000001" xml:space="preserve">
+    <value>Закрыть программу?</value>
+  </data>
+  <data name="S0000002" xml:space="preserve">
+    <value>Закрытие...</value>
+  </data>
+  <data name="S0000003" xml:space="preserve">
+    <value>Старт...</value>
+  </data>
+  <data name="S0000004" xml:space="preserve">
+    <value>Действие:</value>
+  </data>
+  <data name="S0000005" xml:space="preserve">
+    <value>Статус:</value>
+  </data>
+  <data name="S0000006" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="S0000007" xml:space="preserve">
+    <value>Повторить</value>
+  </data>
+  <data name="S0000008" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="S0000009" xml:space="preserve">
+    <value>Проверка лицензии...</value>
+  </data>
+  <data name="S0000010" xml:space="preserve">
+    <value>Загрузка данных...</value>
+  </data>
+  <data name="S0000011" xml:space="preserve">
+    <value>Работаю...</value>
+  </data>
+  <data name="S0000012" xml:space="preserve">
+    <value>Проверка HID...</value>
+  </data>
+  <data name="S0000013" xml:space="preserve">
+    <value>Онлайн активация...</value>
+  </data>
+  <data name="S0000014" xml:space="preserve">
+    <value>Файл лицензии поврежден.</value>
+  </data>
+  <data name="S0000015" xml:space="preserve">
+    <value>Текущий HID не совпадает с HID лицензии.</value>
+  </data>
+  <data name="S0000016" xml:space="preserve">
+    <value>Невозможно проверить лицензию.</value>
+  </data>
+  <data name="S0000017" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="S0000018" xml:space="preserve">
+    <value>Новости</value>
+  </data>
+  <data name="S0000019" xml:space="preserve">
+    <value>Задания</value>
+  </data>
+  <data name="S0000020" xml:space="preserve">
+    <value>Дорвеи</value>
+  </data>
+  <data name="S0000021" xml:space="preserve">
+    <value>Страницы</value>
+  </data>
+  <data name="S0000022" xml:space="preserve">
+    <value>Текущие задания</value>
+  </data>
+  <data name="S0000023" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="S0000024" xml:space="preserve">
+    <value>Вы действительно зотите удалить WorkSpace </value>
+  </data>
+  <data name="S0000025" xml:space="preserve">
+    <value>Удаляю WorkSpace...</value>
+  </data>
+  <data name="S0000026" xml:space="preserve">
+    <value>Работаю...</value>
+  </data>
+  <data name="S0000027" xml:space="preserve">
+    <value>Пауза</value>
+  </data>
+  <data name="S0000028" xml:space="preserve">
+    <value>Остановлено</value>
+  </data>
+  <data name="S0000029" xml:space="preserve">
+    <value>Выгрузка...</value>
+  </data>
+  <data name="S0000030" xml:space="preserve">
+    <value>Ошибка!</value>
+  </data>
+  <data name="S0000031" xml:space="preserve">
+    <value>Показывать/Скрывать</value>
+  </data>
+  <data name="S0000032" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="S0000033" xml:space="preserve">
+    <value>Создать WorkSpace</value>
+  </data>
+  <data name="S0000034" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="S0000035" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="S0000036" xml:space="preserve">
+    <value>Кейворды</value>
+  </data>
+  <data name="S0000037" xml:space="preserve">
+    <value>Шаблоны</value>
+  </data>
+  <data name="S0000038" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="S0000039" xml:space="preserve">
+    <value>Пресеты</value>
+  </data>
+  <data name="S0000040" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="S0000041" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="S0000042" xml:space="preserve">
+    <value>Показывать новости</value>
+  </data>
+  <data name="S0000043" xml:space="preserve">
+    <value>Показывать подсказки</value>
+  </data>
+  <data name="S0000044" xml:space="preserve">
+    <value>Редактирование</value>
+  </data>
+  <data name="S0000045" xml:space="preserve">
+    <value>Опции</value>
+  </data>
+  <data name="S0000046" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="S0000047" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <data name="S0000048" xml:space="preserve">
+    <value>Получить Hardware ID</value>
+  </data>
+  <data name="S0000049" xml:space="preserve">
+    <value>О программе...</value>
+  </data>
+  <data name="S0000050" xml:space="preserve">
+    <value>Проверить обновления</value>
+  </data>
+  <data name="S0000051" xml:space="preserve">
+    <value>Утилиты</value>
+  </data>
+  <data name="S0000052" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="S0000053" xml:space="preserve">
+    <value>Коммент.</value>
+  </data>
+  <data name="S0000054" xml:space="preserve">
+    <value>Новый</value>
+  </data>
+  <data name="S0000055" xml:space="preserve">
+    <value>Сохранить как...</value>
+  </data>
+  <data name="S0000056" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="S0000057" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="S0000058" xml:space="preserve">
+    <value>Запущено...</value>
+  </data>
+  <data name="S0000059" xml:space="preserve">
+    <value>Прошло</value>
+  </data>
+  <data name="S0000060" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="S0000061" xml:space="preserve">
+    <value>EULA</value>
+  </data>
+  <data name="S0000062" xml:space="preserve">
+    <value>Я согласен с EULA</value>
+  </data>
+  <data name="S0000063" xml:space="preserve">
+    <value>Лицензионное соглашение:</value>
+  </data>
+  <data name="S0000064" xml:space="preserve">
+    <value>Экспорт/Редактирование</value>
+  </data>
+  <data name="S0000065" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="S0000066" xml:space="preserve">
+    <value>Кодировка</value>
+  </data>
+  <data name="S0000067" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="S0000068" xml:space="preserve">
+    <value>Контент</value>
+  </data>
+  <data name="S0000069" xml:space="preserve">
+    <value>Выделить все</value>
+  </data>
+  <data name="S0000070" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="S0000071" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="S0000072" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="S0000073" xml:space="preserve">
+    <value>Копировать в Буффер</value>
+  </data>
+  <data name="S0000074" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="S0000075" xml:space="preserve">
+    <value>Лог</value>
+  </data>
+  <data name="S0000076" xml:space="preserve">
+    <value>Создать/Редактировать</value>
+  </data>
+  <data name="S0000077" xml:space="preserve">
+    <value>Запускать</value>
+  </data>
+  <data name="S0000078" xml:space="preserve">
+    <value>Общее</value>
+  </data>
+  <data name="S0000079" xml:space="preserve">
+    <value>Макс. количество паралельных заданий</value>
+  </data>
+  <data name="S0000080" xml:space="preserve">
+    <value>Удалять выполненые задания через</value>
+  </data>
+  <data name="S0000081" xml:space="preserve">
+    <value>день(й)</value>
+  </data>
+  <data name="S0000082" xml:space="preserve">
+    <value>Очищать папку куда будет сохранен дорвей</value>
+  </data>
+  <data name="S0000083" xml:space="preserve">
+    <value>Запускать с Windows</value>
+  </data>
+  <data name="S0000084" xml:space="preserve">
+    <value>Запускать в свернутом режиме</value>
+  </data>
+  <data name="S0000085" xml:space="preserve">
+    <value>Сообщения</value>
+  </data>
+  <data name="S0000086" xml:space="preserve">
+    <value>Показывать</value>
+  </data>
+  <data name="S0000087" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="S0000088" xml:space="preserve">
+    <value>сек.</value>
+  </data>
+  <data name="S0000089" xml:space="preserve">
+    <value>График</value>
+  </data>
+  <data name="S0000090" xml:space="preserve">
+    <value>Общая статистика</value>
+  </data>
+  <data name="S0000091" xml:space="preserve">
+    <value>Статистика за этот месяц</value>
+  </data>
+  <data name="S0000092" xml:space="preserve">
+    <value>Задания: Выполнено/Всего</value>
+  </data>
+  <data name="S0000093" xml:space="preserve">
+    <value>Дорвеи: Выполнено/Всего</value>
+  </data>
+  <data name="S0000094" xml:space="preserve">
+    <value>Страницы: Выполнено</value>
+  </data>
+  <data name="S0000095" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="S0000096" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="S0000097" xml:space="preserve">
+    <value>Год</value>
+  </data>
+  <data name="S0000098" xml:space="preserve">
+    <value>Месяц</value>
+  </data>
+  <data name="S0000099" xml:space="preserve">
+    <value>Пресет</value>
+  </data>
+  <data name="S0000100" xml:space="preserve">
+    <value>Шаблон</value>
+  </data>
+  <data name="S0000101" xml:space="preserve">
+    <value>Создавать/Потоки</value>
+  </data>
+  <data name="S0000102" xml:space="preserve">
+    <value>Создавать</value>
+  </data>
+  <data name="S0000103" xml:space="preserve">
+    <value>Количество потоков</value>
+  </data>
+  <data name="S0000104" xml:space="preserve">
+    <value>дорвей(и)</value>
+  </data>
+  <data name="S0000105" xml:space="preserve">
+    <value>Изображения</value>
+  </data>
+  <data name="S0000106" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="S0000107" xml:space="preserve">
+    <value>Ширина</value>
+  </data>
+  <data name="S0000108" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="S0000109" xml:space="preserve">
+    <value>Использовать изображений:</value>
+  </data>
+  <data name="S0000110" xml:space="preserve">
+    <value>Создавать подпапки</value>
+  </data>
+  <data name="S0000111" xml:space="preserve">
+    <value>Ссылки на дорвей(и)</value>
+  </data>
+  <data name="S0000112" xml:space="preserve">
+    <value>Файл макросы</value>
+  </data>
+  <data name="S0000113" xml:space="preserve">
+    <value>Макрос</value>
+  </data>
+  <data name="S0000114" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="S0000115" xml:space="preserve">
+    <value>Кейворды/Категории</value>
+  </data>
+  <data name="S0000116" xml:space="preserve">
+    <value>Использование кейвордов</value>
+  </data>
+  <data name="S0000117" xml:space="preserve">
+    <value>Использ.</value>
+  </data>
+  <data name="S0000118" xml:space="preserve">
+    <value>Перестановка</value>
+  </data>
+  <data name="S0000119" xml:space="preserve">
+    <value>Перестановка кейвордов</value>
+  </data>
+  <data name="S0000120" xml:space="preserve">
+    <value>Перестановка слов в кеях</value>
+  </data>
+  <data name="S0000121" xml:space="preserve">
+    <value>Синонимы</value>
+  </data>
+  <data name="S0000122" xml:space="preserve">
+    <value>Использ.</value>
+  </data>
+  <data name="S0000123" xml:space="preserve">
+    <value>Совмещение</value>
+  </data>
+  <data name="S0000124" xml:space="preserve">
+    <value>С</value>
+  </data>
+  <data name="S0000125" xml:space="preserve">
+    <value>Категории</value>
+  </data>
+  <data name="S0000126" xml:space="preserve">
+    <value>Динамич.</value>
+  </data>
+  <data name="S0000127" xml:space="preserve">
+    <value>Статические</value>
+  </data>
+  <data name="S0000128" xml:space="preserve">
+    <value>Распределение</value>
+  </data>
+  <data name="S0000129" xml:space="preserve">
+    <value>Тип дорвея</value>
+  </data>
+  <data name="S0000130" xml:space="preserve">
+    <value>Основа</value>
+  </data>
+  <data name="S0000131" xml:space="preserve">
+    <value>Расширение</value>
+  </data>
+  <data name="S0000132" xml:space="preserve">
+    <value>Разделитель</value>
+  </data>
+  <data name="S0000133" xml:space="preserve">
+    <value>Имена</value>
+  </data>
+  <data name="S0000134" xml:space="preserve">
+    <value>Страницы</value>
+  </data>
+  <data name="S0000135" xml:space="preserve">
+    <value>Категории</value>
+  </data>
+  <data name="S0000136" xml:space="preserve">
+    <value>Продолжения</value>
+  </data>
+  <data name="S0000137" xml:space="preserve">
+    <value>Продолжения главной</value>
+  </data>
+  <data name="S0000138" xml:space="preserve">
+    <value>Продолжения категорий</value>
+  </data>
+  <data name="S0000139" xml:space="preserve">
+    <value>Кеи/Страница</value>
+  </data>
+  <data name="S0000140" xml:space="preserve">
+    <value>Стат. страниц</value>
+  </data>
+  <data name="S0000141" xml:space="preserve">
+    <value>Статические страницы/RSS</value>
+  </data>
+  <data name="S0000142" xml:space="preserve">
+    <value>Карта сайта</value>
+  </data>
+  <data name="S0000143" xml:space="preserve">
+    <value>Настройки HTML карты сайта</value>
+  </data>
+  <data name="S0000144" xml:space="preserve">
+    <value>Ссылок на странице</value>
+  </data>
+  <data name="S0000145" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="S0000146" xml:space="preserve">
+    <value>Метод</value>
+  </data>
+  <data name="S0000147" xml:space="preserve">
+    <value>Длина текста (слов)</value>
+  </data>
+  <data name="S0000148" xml:space="preserve">
+    <value>Слова</value>
+  </data>
+  <data name="S0000149" xml:space="preserve">
+    <value>Кейвордов на страницах</value>
+  </data>
+  <data name="S0000150" xml:space="preserve">
+    <value>Более одного</value>
+  </data>
+  <data name="S0000151" xml:space="preserve">
+    <value>Процент</value>
+  </data>
+  <data name="S0000152" xml:space="preserve">
+    <value>Вставл.</value>
+  </data>
+  <data name="S0000153" xml:space="preserve">
+    <value>Процент для каждого кея</value>
+  </data>
+  <data name="S0000154" xml:space="preserve">
+    <value>Вставлять другие кеи</value>
+  </data>
+  <data name="S0000155" xml:space="preserve">
+    <value>Выбор</value>
+  </data>
+  <data name="S0000156" xml:space="preserve">
+    <value>Фразы</value>
+  </data>
+  <data name="S0000157" xml:space="preserve">
+    <value>Знаки препинаний</value>
+  </data>
+  <data name="S0000158" xml:space="preserve">
+    <value>Параграфы</value>
+  </data>
+  <data name="S0000159" xml:space="preserve">
+    <value>Цепи, Графы, Би/Триграммы</value>
+  </data>
+  <data name="S0000160" xml:space="preserve">
+    <value>Анализ текста</value>
+  </data>
+  <data name="S0000161" xml:space="preserve">
+    <value>Для слов длинн.</value>
+  </data>
+  <data name="S0000162" xml:space="preserve">
+    <value>симв.</value>
+  </data>
+  <data name="S0000163" xml:space="preserve">
+    <value>Построение</value>
+  </data>
+  <data name="S0000164" xml:space="preserve">
+    <value>Вставлять слова</value>
+  </data>
+  <data name="S0000165" xml:space="preserve">
+    <value>Вероятность</value>
+  </data>
+  <data name="S0000166" xml:space="preserve">
+    <value>Предложения</value>
+  </data>
+  <data name="S0000167" xml:space="preserve">
+    <value>Длина</value>
+  </data>
+  <data name="S0000168" xml:space="preserve">
+    <value>Большие буквы</value>
+  </data>
+  <data name="S0000169" xml:space="preserve">
+    <value>Смеш./Рандом/Copy/Paste</value>
+  </data>
+  <data name="S0000170" xml:space="preserve">
+    <value>Радиус</value>
+  </data>
+  <data name="S0000171" xml:space="preserve">
+    <value>Макросы</value>
+  </data>
+  <data name="S0000172" xml:space="preserve">
+    <value>Блоки</value>
+  </data>
+  <data name="S0000173" xml:space="preserve">
+    <value>Глав/Кат</value>
+  </data>
+  <data name="S0000174" xml:space="preserve">
+    <value>Страница</value>
+  </data>
+  <data name="S0000175" xml:space="preserve">
+    <value>Вход</value>
+  </data>
+  <data name="S0000176" xml:space="preserve">
+    <value>Тип вставки</value>
+  </data>
+  <data name="S0000177" xml:space="preserve">
+    <value>Шифрование</value>
+  </data>
+  <data name="S0000178" xml:space="preserve">
+    <value>Адрес акцептора</value>
+  </data>
+  <data name="S0000179" xml:space="preserve">
+    <value>Редирект/Фрейм/Кнопка "Вход" HTML-код</value>
+  </data>
+  <data name="S0000180" xml:space="preserve">
+    <value>Ссылки &amp;&amp; Spam</value>
+  </data>
+  <data name="S0000181" xml:space="preserve">
+    <value>Ссылки</value>
+  </data>
+  <data name="S0000182" xml:space="preserve">
+    <value>Ссылки в тексте</value>
+  </data>
+  <data name="S0000183" xml:space="preserve">
+    <value>Анкоры:</value>
+  </data>
+  <data name="S0000184" xml:space="preserve">
+    <value>Длина ссылок (слов):</value>
+  </data>
+  <data name="S0000185" xml:space="preserve">
+    <value>Внешние ссылки</value>
+  </data>
+  <data name="S0000186" xml:space="preserve">
+    <value>Типы ссылок</value>
+  </data>
+  <data name="S0000187" xml:space="preserve">
+    <value>Выгр.</value>
+  </data>
+  <data name="S0000188" xml:space="preserve">
+    <value>Настройки выгрузки</value>
+  </data>
+  <data name="S0000189" xml:space="preserve">
+    <value>Выгружать в фоне</value>
+  </data>
+  <data name="S0000190" xml:space="preserve">
+    <value>Удалять файлы после выгрузки</value>
+  </data>
+  <data name="S0000191" xml:space="preserve">
+    <value>Потоков выгрузки</value>
+  </data>
+  <data name="S0000192" xml:space="preserve">
+    <value>Данные FTP</value>
+  </data>
+  <data name="S0000193" xml:space="preserve">
+    <value>О</value>
+  </data>
+  <data name="S0000194" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="S0000195" xml:space="preserve">
+    <value>Владелец</value>
+  </data>
+  <data name="S0000196" xml:space="preserve">
+    <value>Тип лицензии</value>
+  </data>
+  <data name="S0000197" xml:space="preserve">
+    <value>Оценочная версия</value>
+  </data>
+  <data name="S0000198" xml:space="preserve">
+    <value>Обычная версия</value>
+  </data>
+  <data name="S0000199" xml:space="preserve">
+    <value>Загрузить из...</value>
+  </data>
+  <data name="S0000200" xml:space="preserve">
+    <value>Из шаблона</value>
+  </data>
+  <data name="S0000201" xml:space="preserve">
+    <value>Из шаблона (+Переименовывать)</value>
+  </data>
+  <data name="S0000202" xml:space="preserve">
+    <value>Генерировать</value>
+  </data>
+  <data name="S0000203" xml:space="preserve">
+    <value>Шаблон + Генерировать</value>
+  </data>
+  <data name="S0000204" xml:space="preserve">
+    <value>Шаблон + Генерировать (+Переименовывать)</value>
+  </data>
+  <data name="S0000205" xml:space="preserve">
+    <value>Не паковать</value>
+  </data>
+  <data name="S0000206" xml:space="preserve">
+    <value>Кейворд</value>
+  </data>
+  <data name="S0000207" xml:space="preserve">
+    <value>Номер</value>
+  </data>
+  <data name="S0000208" xml:space="preserve">
+    <value>Кейворд + Номер</value>
+  </data>
+  <data name="S0000209" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="S0000210" xml:space="preserve">
+    <value>Первые</value>
+  </data>
+  <data name="S0000211" xml:space="preserve">
+    <value>Последние</value>
+  </data>
+  <data name="S0000212" xml:space="preserve">
+    <value>Случайно</value>
+  </data>
+  <data name="S0000213" xml:space="preserve">
+    <value>Если содержит</value>
+  </data>
+  <data name="S0000214" xml:space="preserve">
+    <value>PHP + Text</value>
+  </data>
+  <data name="S0000215" xml:space="preserve">
+    <value>Кейворд (транслит)</value>
+  </data>
+  <data name="S0000216" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="S0000217" xml:space="preserve">
+    <value>Одна страница</value>
+  </data>
+  <data name="S0000218" xml:space="preserve">
+    <value>Много страниц</value>
+  </data>
+  <data name="S0000219" xml:space="preserve">
+    <value>Авто</value>
+  </data>
+  <data name="S0000220" xml:space="preserve">
+    <value>Вручную</value>
+  </data>
+  <data name="S0000221" xml:space="preserve">
+    <value>Цепь Маркова, Классическая</value>
+  </data>
+  <data name="S0000222" xml:space="preserve">
+    <value>Цепь Маркова</value>
+  </data>
+  <data name="S0000223" xml:space="preserve">
+    <value>Концептуальные графы</value>
+  </data>
+  <data name="S0000224" xml:space="preserve">
+    <value>Смешивать</value>
+  </data>
+  <data name="S0000225" xml:space="preserve">
+    <value>Копировать/Вставить</value>
+  </data>
+  <data name="S0000226" xml:space="preserve">
+    <value>Целые</value>
+  </data>
+  <data name="S0000227" xml:space="preserve">
+    <value>Без окончаний</value>
+  </data>
+  <data name="S0000228" xml:space="preserve">
+    <value>Простое</value>
+  </data>
+  <data name="S0000229" xml:space="preserve">
+    <value>Удлиненное</value>
+  </data>
+  <data name="S0000230" xml:space="preserve">
+    <value>Учитывать</value>
+  </data>
+  <data name="S0000231" xml:space="preserve">
+    <value>Не учитывать</value>
+  </data>
+  <data name="S0000232" xml:space="preserve">
+    <value>С шагом</value>
+  </data>
+  <data name="S0000233" xml:space="preserve">
+    <value>Части предложений</value>
+  </data>
+  <data name="S0000234" xml:space="preserve">
+    <value>Полные адреса</value>
+  </data>
+  <data name="S0000235" xml:space="preserve">
+    <value>Редирект</value>
+  </data>
+  <data name="S0000236" xml:space="preserve">
+    <value>Фрейм</value>
+  </data>
+  <data name="S0000237" xml:space="preserve">
+    <value>Вставлять в страницу</value>
+  </data>
+  <data name="S0000238" xml:space="preserve">
+    <value>Вставлять в страницу через document.write</value>
+  </data>
+  <data name="S0000239" xml:space="preserve">
+    <value>Вставлять во внешний .js файл</value>
+  </data>
+  <data name="S0000240" xml:space="preserve">
+    <value>Обычная выгрузка</value>
+  </data>
+  <data name="S0000241" xml:space="preserve">
+    <value>Сделать проект для FileZilla</value>
+  </data>
+  <data name="S0000242" xml:space="preserve">
+    <value>Путь</value>
+  </data>
+  <data name="S0000243" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="S0000244" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="S0000245" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="S0000246" xml:space="preserve">
+    <value>Каталог</value>
+  </data>
+  <data name="S0000247" xml:space="preserve">
+    <value>В оценочной версии Вы не можене тоздавать более 3 WorkSpace!</value>
+  </data>
+  <data name="S0000248" xml:space="preserve">
+    <value>В демо-версии Вы не можете создавать более 1 WorkSpace!</value>
+  </data>
+  <data name="S0000249" xml:space="preserve">
+    <value>Этот WorkSpace уже существует!</value>
+  </data>
+  <data name="S0000250" xml:space="preserve">
+    <value>Одно или несколько полей заполнены не коректно!</value>
+  </data>
+  <data name="S0000251" xml:space="preserve">
+    <value>В начале предложений</value>
+  </data>
+  <data name="S0000252" xml:space="preserve">
+    <value>После знаков препинания</value>
+  </data>
+  <data name="S0000253" xml:space="preserve">
+    <value>Обновление!</value>
+  </data>
+  <data name="S0000254" xml:space="preserve">
+    <value>Доступна новая версия, скачать?</value>
+  </data>
+  <data name="S0000255" xml:space="preserve">
+    <value>Вы пользуетесь последней версией!</value>
+  </data>
+  <data name="S0000256" xml:space="preserve">
+    <value>Апдейтер</value>
+  </data>
+  <data name="S0000257" xml:space="preserve">
+    <value>Открыть папку со скачанным архивом</value>
+  </data>
+  <data name="S0000258" xml:space="preserve">
+    <value>Кб</value>
+  </data>
+  <data name="S0000259" xml:space="preserve">
+    <value>Недели</value>
+  </data>
+  <data name="S0000260" xml:space="preserve">
+    <value>Задания/Дорвеи</value>
+  </data>
+  <data name="S0000261" xml:space="preserve">
+    <value>Запланировано</value>
+  </data>
+  <data name="S0000262" xml:space="preserve">
+    <value>Январь</value>
+  </data>
+  <data name="S0000263" xml:space="preserve">
+    <value>Февраль</value>
+  </data>
+  <data name="S0000264" xml:space="preserve">
+    <value>Март</value>
+  </data>
+  <data name="S0000265" xml:space="preserve">
+    <value>Апрель</value>
+  </data>
+  <data name="S0000266" xml:space="preserve">
+    <value>Май</value>
+  </data>
+  <data name="S0000267" xml:space="preserve">
+    <value>Июнь</value>
+  </data>
+  <data name="S0000268" xml:space="preserve">
+    <value>Июль</value>
+  </data>
+  <data name="S0000269" xml:space="preserve">
+    <value>Август</value>
+  </data>
+  <data name="S0000270" xml:space="preserve">
+    <value>Сентябрь</value>
+  </data>
+  <data name="S0000271" xml:space="preserve">
+    <value>Октябрь</value>
+  </data>
+  <data name="S0000272" xml:space="preserve">
+    <value>Ноябрь</value>
+  </data>
+  <data name="S0000273" xml:space="preserve">
+    <value>Декабрь</value>
+  </data>
+  <data name="S0000274" xml:space="preserve">
+    <value>Вырезать</value>
+  </data>
+  <data name="S0000275" xml:space="preserve">
+    <value>Биграммы</value>
+  </data>
+  <data name="S0000276" xml:space="preserve">
+    <value>Триграммы</value>
+  </data>
+  <data name="S0000277" xml:space="preserve">
+    <value>Произошла ошибка при заполнении настроек!</value>
+  </data>
+  <data name="S0000278" xml:space="preserve">
+    <value>Большой текст</value>
+  </data>
+  <data name="S0000279" xml:space="preserve">
+    <value>Модифицировать картинки шаблона</value>
+  </data>
+  <data name="S0000280" xml:space="preserve">
+    <value>Включать статические страницы в карту сайта.</value>
+  </data>
+  <data name="S0000281" xml:space="preserve">
+    <value>Url-адреса</value>
+  </data>
+  <data name="S0000282" xml:space="preserve">
+    <value>Сохранять ссылки в файлах</value>
+  </data>
+  <data name="S0000283" xml:space="preserve">
+    <value>Один файл/Дорвей</value>
+  </data>
+  <data name="S0000284" xml:space="preserve">
+    <value>Много файлов/Дорвей</value>
+  </data>
+  <data name="S0000285" xml:space="preserve">
+    <value>Один файл/Дорвеи</value>
+  </data>
+  <data name="S0000286" xml:space="preserve">
+    <value>Много файлов/Дорвеи</value>
+  </data>
+  <data name="S0000287" xml:space="preserve">
+    <value>Последовательно</value>
+  </data>
+  <data name="S0000288" xml:space="preserve">
+    <value>Одна строка/Дорвей</value>
+  </data>
+  <data name="S0000290" xml:space="preserve">
+    <value>Удалить все задания</value>
+  </data>
+  <data name="S0000291" xml:space="preserve">
+    <value>Удаление всех заданий...</value>
+  </data>
+  <data name="S0000292" xml:space="preserve">
+    <value>Вы действительно хотите удалить все задания?</value>
+  </data>
+  <data name="S0000293" xml:space="preserve">
+    <value>Удалить все выполненные задания</value>
+  </data>
+  <data name="S0000294" xml:space="preserve">
+    <value>Удаление всех выполненых заданий...</value>
+  </data>
+  <data name="S0000295" xml:space="preserve">
+    <value>Вы действительно хотите удалить все выполненые задания?</value>
+  </data>
+  <data name="S0000296" xml:space="preserve">
+    <value>Импорт из файла</value>
+  </data>
+  <data name="S0000297" xml:space="preserve">
+    <value>Очистить таблицу</value>
+  </data>
+  <data name="S0000298" xml:space="preserve">
+    <value>Обновления</value>
+  </data>
+  <data name="S0000299" xml:space="preserve">
+    <value>Проверять наличие обновлений при старте</value>
+  </data>
+  <data name="S0000300" xml:space="preserve">
+    <value>Случайная строка/Дорвей</value>
+  </data>
+  <data name="S0000301" xml:space="preserve">
+    <value>Копировать/Вставить: Построчно</value>
+  </data>
+  <data name="S0000302" xml:space="preserve">
+    <value>Из файла</value>
+  </data>
+  <data name="S0000303" xml:space="preserve">
+    <value>Из файла (транслит)</value>
+  </data>
+  <data name="S0000304" xml:space="preserve">
+    <value>Кол-во категорий (0;0 - все)</value>
+  </data>
+  <data name="S0000305" xml:space="preserve">
+    <value>Относительные ссылки</value>
+  </data>
+  <data name="S0000400" xml:space="preserve">
+    <value> Старт...</value>
+  </data>
+  <data name="S0000401" xml:space="preserve">
+    <value> Подсчет количества потоков...</value>
+  </data>
+  <data name="S0000402" xml:space="preserve">
+    <value> Создан поток #</value>
+  </data>
+  <data name="S0000403" xml:space="preserve">
+    <value> Готово</value>
+  </data>
+  <data name="S0000404" xml:space="preserve">
+    <value> Поток #</value>
+  </data>
+  <data name="S0000405" xml:space="preserve">
+    <value> Дорвей #</value>
+  </data>
+  <data name="S0000406" xml:space="preserve">
+    <value> старт...</value>
+  </data>
+  <data name="S0000407" xml:space="preserve">
+    <value> Критическая ошибка!</value>
+  </data>
+  <data name="S0000408" xml:space="preserve">
+    <value> сохранение...</value>
+  </data>
+  <data name="S0000409" xml:space="preserve">
+    <value> Сохранение...</value>
+  </data>
+  <data name="S0000410" xml:space="preserve">
+    <value> выгрузка...</value>
+  </data>
+  <data name="S0000411" xml:space="preserve">
+    <value> Выгрузка...</value>
+  </data>
+  <data name="S0000412" xml:space="preserve">
+    <value> успешно создан</value>
+  </data>
+  <data name="S0000413" xml:space="preserve">
+    <value> Дорвей успешно создан</value>
+  </data>
+  <data name="S0000414" xml:space="preserve">
+    <value>. Настройки: Начальный дорвей: </value>
+  </data>
+  <data name="S0000415" xml:space="preserve">
+    <value>; Последний дорвей: </value>
+  </data>
+  <data name="S0000416" xml:space="preserve">
+    <value> Проверка настроек...</value>
+  </data>
+  <data name="S0000417" xml:space="preserve">
+    <value> Шаблон не существует</value>
+  </data>
+  <data name="S0000418" xml:space="preserve">
+    <value> Текст не существует</value>
+  </data>
+  <data name="S0000419" xml:space="preserve">
+    <value> Кейворды не существуют</value>
+  </data>
+  <data name="S0000420" xml:space="preserve">
+    <value> Синонимы не существуют, деактивирование синонимизации</value>
+  </data>
+  <data name="S0000421" xml:space="preserve">
+    <value> Кейворды для склеивания не существуют, отключение склеивания</value>
+  </data>
+  <data name="S0000422" xml:space="preserve">
+    <value> Кейворды для распределения страниц по категориям не существуют, деактивирование распределения страниц по категориям "Если содержит"</value>
+  </data>
+  <data name="S0000423" xml:space="preserve">
+    <value> Создание файловых макросов...</value>
+  </data>
+  <data name="S0000424" xml:space="preserve">
+    <value> Шаблон для  HTML карты сайта не существует, деактивирование создания HTML карты сайта...</value>
+  </data>
+  <data name="S0000425" xml:space="preserve">
+    <value> Выбор кейвордов...</value>
+  </data>
+  <data name="S0000426" xml:space="preserve">
+    <value> Создание папок...</value>
+  </data>
+  <data name="S0000427" xml:space="preserve">
+    <value> Копирование файлов шаблона...</value>
+  </data>
+  <data name="S0000428" xml:space="preserve">
+    <value> Копирование/генерирования/Парсинг картинок...</value>
+  </data>
+  <data name="S0000429" xml:space="preserve">
+    <value> Создание php файла...</value>
+  </data>
+  <data name="S0000430" xml:space="preserve">
+    <value> Создание robots.txt...</value>
+  </data>
+  <data name="S0000431" xml:space="preserve">
+    <value> Создание имен страниц...</value>
+  </data>
+  <data name="S0000432" xml:space="preserve">
+    <value> Создание spam-ссылок...</value>
+  </data>
+  <data name="S0000433" xml:space="preserve">
+    <value> Создание страниц...</value>
+  </data>
+  <data name="S0000434" xml:space="preserve">
+    <value> Создание RSS фида...</value>
+  </data>
+  <data name="S0000435" xml:space="preserve">
+    <value> Ошибка: </value>
+  </data>
+  <data name="S0000436" xml:space="preserve">
+    <value> Выбрано </value>
+  </data>
+  <data name="S0000437" xml:space="preserve">
+    <value> кейворд(ов)</value>
+  </data>
+  <data name="S0000438" xml:space="preserve">
+    <value> Дорвей будет сохранен в </value>
+  </data>
+  <data name="S0000439" xml:space="preserve">
+    <value> Очистка папки под дорвей...</value>
+  </data>
+  <data name="S0000440" xml:space="preserve">
+    <value> Спарсивание картинок...</value>
+  </data>
+  <data name="S0000441" xml:space="preserve">
+    <value> Копирование картинок...</value>
+  </data>
+  <data name="S0000442" xml:space="preserve">
+    <value> Генерирование картинок...</value>
+  </data>
+  <data name="S0000443" xml:space="preserve">
+    <value />
+  </data>
+  <data name="S0000444" xml:space="preserve">
+    <value />
+  </data>
+  <data name="S0000445" xml:space="preserve">
+    <value> Скопировано </value>
+  </data>
+  <data name="S0000446" xml:space="preserve">
+    <value> картинка(ок)</value>
+  </data>
+  <data name="S0000447" xml:space="preserve">
+    <value> Сгенерировано </value>
+  </data>
+  <data name="S0000448" xml:space="preserve">
+    <value> Создано </value>
+  </data>
+  <data name="S0000449" xml:space="preserve">
+    <value> категория(и/й)</value>
+  </data>
+  <data name="S0000450" xml:space="preserve">
+    <value> Создание списка категорий...</value>
+  </data>
+  <data name="S0000451" xml:space="preserve">
+    <value> Создание кейвордов...</value>
+  </data>
+  <data name="S0000452" xml:space="preserve">
+    <value> Заполнение данных страниц...</value>
+  </data>
+  <data name="S0000453" xml:space="preserve">
+    <value> Создание XML карты сайта...</value>
+  </data>
+  <data name="S0000454" xml:space="preserve">
+    <value> Создание HTML карты сайта...</value>
+  </data>
+  <data name="S0000455" xml:space="preserve">
+    <value> HTML карта сайта создана,размер (страниц): </value>
+  </data>
+  <data name="S0000456" xml:space="preserve">
+    <value> XML карта сайта создана</value>
+  </data>
+  <data name="S0000457" xml:space="preserve">
+    <value> Создание страницы #</value>
+  </data>
+  <data name="S0000458" xml:space="preserve">
+    <value>, тип: </value>
+  </data>
+  <data name="S0000459" xml:space="preserve">
+    <value>Статическая страница</value>
+  </data>
+  <data name="S0000460" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="S0000461" xml:space="preserve">
+    <value>Продолжение категории</value>
+  </data>
+  <data name="S0000462" xml:space="preserve">
+    <value>Продолжение главной</value>
+  </data>
+  <data name="S0000463" xml:space="preserve">
+    <value> Создание основного контента...</value>
+  </data>
+  <data name="S0000464" xml:space="preserve">
+    <value> Замена макросов...</value>
+  </data>
+  <data name="S0000465" xml:space="preserve">
+    <value> Создание архива...</value>
+  </data>
+  <data name="S0000466" xml:space="preserve">
+    <value> Удаление файлов...</value>
+  </data>
+  <data name="S0000467" xml:space="preserve">
+    <value> Проект FileZilla сохранен</value>
+  </data>
+  <data name="S0000468" xml:space="preserve">
+    <value> FTP поток #</value>
+  </data>
+  <data name="S0000469" xml:space="preserve">
+    <value>. Соединение с FTP сервером...</value>
+  </data>
+  <data name="S0000470" xml:space="preserve">
+    <value>. Не удалось соединиться с FTP сервером</value>
+  </data>
+  <data name="S0000471" xml:space="preserve">
+    <value>. Выгрузка </value>
+  </data>
+  <data name="S0000472" xml:space="preserve">
+    <value> Замена случайных макросов...</value>
+  </data>
+  <data name="S0000473" xml:space="preserve">
+    <value> Замена блочных макросов...</value>
+  </data>
+  <data name="S0000474" xml:space="preserve">
+    <value> Замена обычных макросов...</value>
+  </data>
+  <data name="S0000475" xml:space="preserve">
+    <value> Замена текстовых макросов...</value>
+  </data>
+  <data name="S0000476" xml:space="preserve">
+    <value> Замена файловых макросов...</value>
+  </data>
+  <data name="S0000477" xml:space="preserve">
+    <value> Замена [BLOCK] макросов...</value>
+  </data>
+  <data name="S0000478" xml:space="preserve">
+    <value> Замена [CATEGORIES] макросов...</value>
+  </data>
+  <data name="S0000479" xml:space="preserve">
+    <value> Замена [CATEGORYMENUBLOCK] макросов...</value>
+  </data>
+  <data name="S0000480" xml:space="preserve">
+    <value> Замена [STATICBLOCK] макросов...</value>
+  </data>
+  <data name="S0000481" xml:space="preserve">
+    <value> Замена [MENUBLOCK] макросов...</value>
+  </data>
+  <data name="S0000482" xml:space="preserve">
+    <value> Замена [NETBLOCK] макросов...</value>
+  </data>
+  <data name="S0000483" xml:space="preserve">
+    <value> Замена [USERBLOCK1] макросов...</value>
+  </data>
+  <data name="S0000484" xml:space="preserve">
+    <value> Замена [USERBLOCK2] макросов...</value>
+  </data>
+  <data name="S0000485" xml:space="preserve">
+    <value> Замена [USERBLOCK3] макросов...</value>
+  </data>
+  <data name="S0000486" xml:space="preserve">
+    <value> Замена [USERBLOCK4] макросов...</value>
+  </data>
+  <data name="S0000487" xml:space="preserve">
+    <value> Замена [USERBLOCK5] макросов...</value>
+  </data>
+  <data name="S0000488" xml:space="preserve">
+    <value> Замена [USERBLOCK6] макросов...</value>
+  </data>
+  <data name="S0000489" xml:space="preserve">
+    <value> Замена [MAPBLOCK] макросов...</value>
+  </data>
+  <data name="S0000490" xml:space="preserve">
+    <value> RSS фид сохранен</value>
+  </data>
+  <data name="S0000491" xml:space="preserve">
+    <value> Загрузка контента файловых макросов...</value>
+  </data>
+  <data name="S0000492" xml:space="preserve">
+    <value> Сохранение файла: </value>
+  </data>
+  <data name="S0000493" xml:space="preserve">
+    <value> Ошибка сохранения файла: </value>
+  </data>
+  <data name="S0000494" xml:space="preserve">
+    <value> Файл: </value>
+  </data>
+  <data name="S0000495" xml:space="preserve">
+    <value>, для макроса </value>
+  </data>
+  <data name="S0000496" xml:space="preserve">
+    <value> не существует</value>
+  </data>
+  <data name="S0000497" xml:space="preserve">
+    <value> Ошибка при выгрузке файла: </value>
+  </data>
+  <data name="S0000498" xml:space="preserve">
+    <value>Собственная страница</value>
+  </data>
+  <data name="S0000499" xml:space="preserve">
+    <value> Замена макросов шифрования...</value>
+  </data>
+  <data name="S0000500" xml:space="preserve">
+    <value> Замена [CUSTOMBLOCK] макросов...</value>
+  </data>
+  <data name="S0000501" xml:space="preserve">
+    <value>Номер (глобально)</value>
+  </data>
+  <data name="S0000502" xml:space="preserve">
+    <value>Номер (локально)</value>
+  </data>
+  <data name="S0000503" xml:space="preserve">
+    <value>Соединение по запятым</value>
+  </data>
+  <data name="S0000504" xml:space="preserve">
+    <value>Соединение по запятым: Случайно</value>
+  </data>
+  <data name="S0000505" xml:space="preserve">
+    <value>Реверс</value>
+  </data>
+  <data name="S0000506" xml:space="preserve">
+    <value>Реверс: Построчно</value>
+  </data>
+  <data name="S0000507" xml:space="preserve">
+    <value>Исключить кейворды категорий из кейвордов для страниц</value>
+  </data>
+  <data name="S0000508" xml:space="preserve">
+    <value>Улечшенный реверс</value>
+  </data>
+  <data name="S0000509" xml:space="preserve">
+    <value>Улучшенный реверс: Построчно</value>
+  </data>
+  <data name="S0000510" xml:space="preserve">
+    <value>Копировать/Вставить: Блоки</value>
+  </data>
+  <data name="S0000511" xml:space="preserve">
+    <value>Реверс: Блоки</value>
+  </data>
+  <data name="S0000512" xml:space="preserve">
+    <value>Улучшенный реверс: Блоки</value>
+  </data>
+  <data name="S0000513" xml:space="preserve">
+    <value>Даты файлов</value>
+  </data>
+  <data name="S0000514" xml:space="preserve">
+    <value>Авто HTML</value>
+  </data>
+  <data name="S0000515" xml:space="preserve">
+    <value>XML + Авто HTML</value>
+  </data>
+  <data name="S0000516" xml:space="preserve">
+    <value>Карта сайта</value>
+  </data>
+  <data name="S0000517" xml:space="preserve">
+    <value>Тэги</value>
+  </data>
+  <data name="S0000518" xml:space="preserve">
+    <value>PHP + SQLite</value>
+  </data>
+  <data name="S0000519" xml:space="preserve">
+    <value>Применить стандарт</value>
+  </data>
+  <data name="S0000520" xml:space="preserve">
+    <value> Шаблон</value>
+  </data>
+  <data name="S0000521" xml:space="preserve">
+    <value> Удаление неиспользованного изображения: </value>
+  </data>
+  <data name="S0000522" xml:space="preserve">
+    <value>Проверьте правильность задания имен страниц!</value>
+  </data>
+  <data name="S0000523" xml:space="preserve">
+    <value>Ссылки в тексте</value>
+  </data>
+  <data name="S0000524" xml:space="preserve">
+    <value>Вставлять ссылки в текст</value>
+  </data>
+  <data name="S0000525" xml:space="preserve">
+    <value>Кол-во, на разных типах страниц</value>
+  </data>
+  <data name="S0000526" xml:space="preserve">
+    <value>Кол-во, на обычных страницах</value>
+  </data>
+  <data name="S0001000" xml:space="preserve">
+    <value>Давайте рабочим областям (WorkSpace) осмысленные названия.</value>
+  </data>
+  <data name="S0001001" xml:space="preserve">
+    <value>Рабочая область (WorkSpace) - это не задание.</value>
+  </data>
+  <data name="S0001002" xml:space="preserve">
+    <value>Рабочая область (WorkSpace) - это контейнер, в котором хранятся все данные.</value>
+  </data>
+  <data name="S0001003" xml:space="preserve">
+    <value>В рабочей области (WorkSpace) ведется статистика ее использования.</value>
+  </data>
+  <data name="S0001004" xml:space="preserve">
+    <value>При удалении рабочей области (WorkSpace) удаляются все импортированные данные и задания.</value>
+  </data>
+  <data name="S0001005" xml:space="preserve">
+    <value>Давайте кейвордам осмысленные названия.</value>
+  </data>
+  <data name="S0001006" xml:space="preserve">
+    <value>Кейворды хранят не только кейворды, но и статистику.</value>
+  </data>
+  <data name="S0001007" xml:space="preserve">
+    <value>Давайте шаблонам осмысленные названия.</value>
+  </data>
+  <data name="S0001008" xml:space="preserve">
+    <value>Шаблоны хранят не только файлы, но и статистику.</value>
+  </data>
+  <data name="S0001009" xml:space="preserve">
+    <value>Давайте текстам осмысленные названия.</value>
+  </data>
+  <data name="S0001010" xml:space="preserve">
+    <value>Тексты хранят не только текст, но и статистику.</value>
+  </data>
+  <data name="S0001011" xml:space="preserve">
+    <value>Давайте пресетам осмысленные названия.</value>
+  </data>
+  <data name="S0001012" xml:space="preserve">
+    <value>Пресеты хранят не только настройки для задания, но и статистику.</value>
+  </data>
+  <data name="S0001013" xml:space="preserve">
+    <value>Экспорт позволяет сделать копию ваших данных, или поделиться ими с другими.</value>
+  </data>
+  <data name="S0001014" xml:space="preserve">
+    <value>Для каждого дорвея - отдельный лог.</value>
+  </data>
+  <data name="S0001015" xml:space="preserve">
+    <value>В логе отображаются все действия программы.</value>
+  </data>
+  <data name="S0001016" xml:space="preserve">
+    <value>Спам-ссылки нужны для использования в программах массового постинга.</value>
+  </data>
+  <data name="S0001017" xml:space="preserve">
+    <value>Называйте задания осмысленно.</value>
+  </data>
+  <data name="S0001018" xml:space="preserve">
+    <value>Вы можете указать дату и время старта задания.</value>
+  </data>
+  <data name="S0001019" xml:space="preserve">
+    <value>Пресеты позволяют значительно ускорить процесс создания заданий.</value>
+  </data>
+  <data name="S0001020" xml:space="preserve">
+    <value>Для начала работы создайте рабочую область (WorkSpace) и импортируйте в нее кейворды, текст и шаблоны.</value>
+  </data>
+  <data name="S0001021" xml:space="preserve">
+    <value>Статистика использования данных позволит вам определить давно не используемые данные.</value>
+  </data>
+  <data name="S0001022" xml:space="preserve">
+    <value>Планируйте выполнение заданий равномерно во времени.</value>
+  </data>
+  <data name="S0001023" xml:space="preserve">
+    <value>В одном задании можно создать несколько дорвеев.</value>
+  </data>
+  <data name="S0001024" xml:space="preserve">
+    <value>Если вы работаете с несколькими тематиками, то распределите данные для них по разным рабочим областям (WorkSpace).</value>
+  </data>
+  <data name="S0001025" xml:space="preserve">
+    <value>Старые задания со временем удаляются, это время вы можете изменить в настройках.</value>
+  </data>
+  <data name="S0001026" xml:space="preserve">
+    <value>Дорген может автоматически запускаться с Windows.</value>
+  </data>
+  <data name="S0001027" xml:space="preserve">
+    <value>Время от времени проверяйте наличие обновлений.</value>
+  </data>
+  <data name="S0001028" xml:space="preserve">
+    <value>Вы можете создавать задания на многие месяцы вперед.</value>
+  </data>
+  <data name="S0001029" xml:space="preserve">
+    <value>Рабочая область (WorkSpace) это не задание.</value>
+  </data>
+</root>

@@ -1,0 +1,1023 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Categories" xml:space="preserve">
+    <value>Категории</value>
+  </data>
+  <data name="FTP" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Общее</value>
+  </data>
+  <data name="GeneralArchive" xml:space="preserve">
+    <value>Архивировать</value>
+  </data>
+  <data name="GeneralArchiveName" xml:space="preserve">
+    <value>Имя архива</value>
+  </data>
+  <data name="GeneralArchiveNameDescription" xml:space="preserve">
+    <value>Имя файла-архива</value>
+  </data>
+  <data name="GeneralCreateDoorways" xml:space="preserve">
+    <value>Дорвеи</value>
+  </data>
+  <data name="GeneralCreateDoorwaysDescription" xml:space="preserve">
+    <value>Количество дорвеев,которые необходимо создать. Минимум: 1.</value>
+  </data>
+  <data name="GeneralCreateSubFolders" xml:space="preserve">
+    <value>Создавать подпапки</value>
+  </data>
+  <data name="GeneralThreads" xml:space="preserve">
+    <value>Количество потоков</value>
+  </data>
+  <data name="GeneralThreadsDescription" xml:space="preserve">
+    <value>Количество потоков в которых будут создаваться дорвеи. Минимум: 1. Максимум: 10.</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Кейворды</value>
+  </data>
+  <data name="Pages" xml:space="preserve">
+    <value>Страницы</value>
+  </data>
+  <data name="Robots" xml:space="preserve">
+    <value>Robots</value>
+  </data>
+  <data name="RSS" xml:space="preserve">
+    <value>RSS</value>
+  </data>
+  <data name="SiteMap" xml:space="preserve">
+    <value>Карта сайта</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="CategoriesDistribute" xml:space="preserve">
+    <value>Тип распределения страниц</value>
+  </data>
+  <data name="CategoriesDistributeContainsID" xml:space="preserve">
+    <value>ID кейвордов для распределения по категориям</value>
+  </data>
+  <data name="CategoriesDistributeDescription" xml:space="preserve">
+    <value>Типы распределения страниц: 0 - случайно, 1 - если содержит.</value>
+  </data>
+  <data name="CategoriesDynamicExcludeKeywords" xml:space="preserve">
+    <value>Исключить названия динамический категорий из страниц</value>
+  </data>
+  <data name="CategoriesDynamicMax" xml:space="preserve">
+    <value>Максимальное количество динамических категорий</value>
+  </data>
+  <data name="CategoriesDynamicMin" xml:space="preserve">
+    <value>Минимальное количество динамических категорий</value>
+  </data>
+  <data name="CategoriesStaticList" xml:space="preserve">
+    <value>Список статических категорий</value>
+  </data>
+  <data name="CategoriesType" xml:space="preserve">
+    <value>Тип категорий</value>
+  </data>
+  <data name="CategoriesTypeDescription" xml:space="preserve">
+    <value>Тип категорий: 0 - динамические, 1 - статические.</value>
+  </data>
+  <data name="Entrance" xml:space="preserve">
+    <value>Редирект</value>
+  </data>
+  <data name="EntranceAcceptorAdress" xml:space="preserve">
+    <value>Адрес приемника</value>
+  </data>
+  <data name="EntranceAcceptorAdressType" xml:space="preserve">
+    <value>Тип адреса приемника</value>
+  </data>
+  <data name="EntranceAcceptorAdressTypeDescription" xml:space="preserve">
+    <value>Типы адреса приемника: 0 - статический, 1 - динамический.</value>
+  </data>
+  <data name="EntranceCode" xml:space="preserve">
+    <value>HTML код редиректа</value>
+  </data>
+  <data name="EntranceCounter" xml:space="preserve">
+    <value>HTML код счетчика</value>
+  </data>
+  <data name="EntranceInsertType" xml:space="preserve">
+    <value>Тип вставки</value>
+  </data>
+  <data name="EntranceInsertTypeDescription" xml:space="preserve">
+    <value>Типы вставки: 0 - вставлять в страницу, 1 - document.write, 2 - внешний js файл.</value>
+  </data>
+  <data name="EntranceJSEncrypt" xml:space="preserve">
+    <value>Шифровать JavaScript</value>
+  </data>
+  <data name="EntranceType" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="EntranceTypeDescription" xml:space="preserve">
+    <value>Типы: 0 - редирект,1 - фрейм, 2 - другое.</value>
+  </data>
+  <data name="FileMacroses" xml:space="preserve">
+    <value>Файловые макросы</value>
+  </data>
+  <data name="FileTokens" xml:space="preserve">
+    <value>Файловые макросы</value>
+  </data>
+  <data name="FTPDelete" xml:space="preserve">
+    <value>Удалять файлы после выгрузки</value>
+  </data>
+  <data name="FTPSettings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="FTPThreads" xml:space="preserve">
+    <value>Количество потоков загрузки</value>
+  </data>
+  <data name="FTPUpload" xml:space="preserve">
+    <value>Загружать</value>
+  </data>
+  <data name="FTPUploadArchive" xml:space="preserve">
+    <value>Тип архивации перед выгрузкой</value>
+  </data>
+  <data name="FTPUploadArchiveDescription" xml:space="preserve">
+    <value>Типы архивации перед выгрузкой: 0 - без архивации, 1 - Zip, 2 - Tag.gz.</value>
+  </data>
+  <data name="FTPUploadArchiveName" xml:space="preserve">
+    <value>Имя архива</value>
+  </data>
+  <data name="FTPUploadInBackground" xml:space="preserve">
+    <value>Загружать в фоне</value>
+  </data>
+  <data name="FTPUploadSaveTo" xml:space="preserve">
+    <value>Сохранять проекты FileZilla в </value>
+  </data>
+  <data name="FTPUploadType" xml:space="preserve">
+    <value>Тип загрузки</value>
+  </data>
+  <data name="FTPUploadTypeDescription" xml:space="preserve">
+    <value>Типы загрузки: 0 - обычная, 1 - проект FileZilla.</value>
+  </data>
+  <data name="GeneralDoorwayUrls" xml:space="preserve">
+    <value>URL-адреса</value>
+  </data>
+  <data name="GeneralDoorwayUrlsDescription" xml:space="preserve">
+    <value>Список URL-адресов дорвеев</value>
+  </data>
+  <data name="GeneralFileDateEnd" xml:space="preserve">
+    <value>Конечная дата сохранения файлов</value>
+  </data>
+  <data name="GeneralFileDateEndDescription" xml:space="preserve">
+    <value>Изменение даты создания и модификации файла: конечная дата</value>
+  </data>
+  <data name="GeneralFileDateStart" xml:space="preserve">
+    <value>Начальная дата сохранения файлов</value>
+  </data>
+  <data name="GeneralFileDateStartDescription" xml:space="preserve">
+    <value>Изменение даты создания и модификации файла: начальная дата</value>
+  </data>
+  <data name="GeneralGenerateImagesCount" xml:space="preserve">
+    <value>Количество изображений</value>
+  </data>
+  <data name="GeneralGenerateImagesCountDescription" xml:space="preserve">
+    <value>Количество изображений для использования: 0 - все изображения.</value>
+  </data>
+  <data name="GeneralImageNamingFile" xml:space="preserve">
+    <value>Файл с именами изображений</value>
+  </data>
+  <data name="GeneralImageNamingType" xml:space="preserve">
+    <value>Тип создания имен для изображений</value>
+  </data>
+  <data name="GeneralImageNamingTypeDescription" xml:space="preserve">
+    <value>Тип создания имен изображений: 0 - случайно, 1 - из файла, 2 - из файла (транслит).</value>
+  </data>
+  <data name="GeneralImageSizeMaxHeight" xml:space="preserve">
+    <value>Максимальная высота изображения</value>
+  </data>
+  <data name="GeneralImageSizeMaxWidth" xml:space="preserve">
+    <value>Максимальная ширина изображения</value>
+  </data>
+  <data name="GeneralImageSizeMinHeight" xml:space="preserve">
+    <value>Минимальная высота изображения</value>
+  </data>
+  <data name="GeneralImageSizeMinWidth" xml:space="preserve">
+    <value>Минимальная ширина изображения</value>
+  </data>
+  <data name="GeneralImageType" xml:space="preserve">
+    <value>Тип использования картинок</value>
+  </data>
+  <data name="GeneralImageTypeDescription" xml:space="preserve">
+    <value>Типы использования картинок: 0 - из шаблона, 1 - из шаблона + переименовывать, 2 - генерировать, 3- из шаблона + генерировать, 4 - из шаблона + генерировать + переименовывать, 5 - модифицировать.</value>
+  </data>
+  <data name="GeneralSaveTo" xml:space="preserve">
+    <value>Сохранять в</value>
+  </data>
+  <data name="GeneralSubFoldersType" xml:space="preserve">
+    <value>Тип имен подпапок</value>
+  </data>
+  <data name="GeneralSubFoldersTypeDescription" xml:space="preserve">
+    <value>Тип имен подпапок: 0 - кейворд, 1 - номер, 2 - кейворд + номер, 3 - URL</value>
+  </data>
+  <data name="KeywordsID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="KeywordsIDDescription" xml:space="preserve">
+    <value>ID кейвордов из выбраной рабочей области</value>
+  </data>
+  <data name="KeywordsMerge" xml:space="preserve">
+    <value>Совмещать кейворды</value>
+  </data>
+  <data name="KeywordsMergeID" xml:space="preserve">
+    <value>ID совмещение</value>
+  </data>
+  <data name="KeywordsMergeMax" xml:space="preserve">
+    <value>Максимальное количество кейвордов для совмещения</value>
+  </data>
+  <data name="KeywordsMergeMin" xml:space="preserve">
+    <value>Минимальное количество кейвордов для совмещения</value>
+  </data>
+  <data name="KeywordsMergeType" xml:space="preserve">
+    <value>Тип совмещения</value>
+  </data>
+  <data name="KeywordsMergeTypeDescription" xml:space="preserve">
+    <value>Тип совмещения: 0 - 1:1, 1 - 1:N, 2 - 1:Все</value>
+  </data>
+  <data name="KeywordsReorder" xml:space="preserve">
+    <value>Перестановка</value>
+  </data>
+  <data name="KeywordsSelectMax" xml:space="preserve">
+    <value>Максимальное количество</value>
+  </data>
+  <data name="KeywordsSelectMin" xml:space="preserve">
+    <value>Минимальное количество</value>
+  </data>
+  <data name="KeywordsSelectType" xml:space="preserve">
+    <value>Тип выбора</value>
+  </data>
+  <data name="KeywordsSelectTypeDescription" xml:space="preserve">
+    <value>Тип выбора кейвордов: 0 - все, 1 - первые, 2 - последние, 3 - случайно, 4 - последовательно.</value>
+  </data>
+  <data name="KeywordsSynonyms" xml:space="preserve">
+    <value>Использовать синонимы</value>
+  </data>
+  <data name="KeywordsSynonymsID" xml:space="preserve">
+    <value>ID синонимов</value>
+  </data>
+  <data name="KeywordsSynonymsPercentage" xml:space="preserve">
+    <value>Процент синонимов</value>
+  </data>
+  <data name="KeywordsWordsReorder" xml:space="preserve">
+    <value>Перестановка слов</value>
+  </data>
+  <data name="KeywordsWordsReorderPercentage" xml:space="preserve">
+    <value>Процент перестановки слов</value>
+  </data>
+  <data name="Linking" xml:space="preserve">
+    <value>Ссылки</value>
+  </data>
+  <data name="LinksExternal" xml:space="preserve">
+    <value>Внешние ссылки</value>
+  </data>
+  <data name="LinksExternalList" xml:space="preserve">
+    <value>Список внешних ссылок</value>
+  </data>
+  <data name="LinksInternal" xml:space="preserve">
+    <value>Внутренняя перелинковка</value>
+  </data>
+  <data name="LinksInternalMaxLength" xml:space="preserve">
+    <value>Максимальная длина внутренних ссылок</value>
+  </data>
+  <data name="LinksInternalMinLength" xml:space="preserve">
+    <value>Минимальная длина внутренних ссылок</value>
+  </data>
+  <data name="LinksInternalType" xml:space="preserve">
+    <value>Тип внутренней перелинковки</value>
+  </data>
+  <data name="LinksInternalTypeDescription" xml:space="preserve">
+    <value>Типы внутренней перелинковки: 0 - кейворды, 1 - текст, 2 - все.</value>
+  </data>
+  <data name="MacrosesBlockMainMax" xml:space="preserve">
+    <value>Главная: Максимум [BLOCK]</value>
+  </data>
+  <data name="MacrosesBlockMainMin" xml:space="preserve">
+    <value>Главная: Минимум [BLOCK]</value>
+  </data>
+  <data name="MacrosesBlockPageMax" xml:space="preserve">
+    <value>Страницы: Максимум [BLOCK]</value>
+  </data>
+  <data name="MacrosesBlockPageMin" xml:space="preserve">
+    <value>Страницы: Минимум [BLOCK]</value>
+  </data>
+  <data name="MacrosesCategoryMenuBlockMainMax" xml:space="preserve">
+    <value>Главная: Максимум [CATEGORYMENUBLOCK]</value>
+  </data>
+  <data name="MacrosesCategoryMenuBlockMainMin" xml:space="preserve">
+    <value>Главная: Минимум [CATEGORYMENUBLOCK]</value>
+  </data>
+  <data name="MacrosesCategoryMenuBlockPageMax" xml:space="preserve">
+    <value>Страницы: Максимум [CATEGORYMENUBLOCK]</value>
+  </data>
+  <data name="MacrosesCategoryMenuBlockPageMin" xml:space="preserve">
+    <value>Страницы: Минимум [CATEGORYMENUBLOCK]</value>
+  </data>
+  <data name="MacrosesMainLink" xml:space="preserve">
+    <value>[MAINLINK]</value>
+  </data>
+  <data name="MacrosesMainLinkType" xml:space="preserve">
+    <value>Тип [MAINLINK]</value>
+  </data>
+  <data name="MacrosesMainLinkTypeDescription" xml:space="preserve">
+    <value>Типы [MAINLINK]: 0 - полные адреса, 1 - /, 2 - index, 3 - другое.</value>
+  </data>
+  <data name="MacrosesMenuBlockMainMax" xml:space="preserve">
+    <value>Главная: Максимум [MENUBLOCK]</value>
+  </data>
+  <data name="MacrosesMenuBlockMainMin" xml:space="preserve">
+    <value>Главная: Минимум [MENUBLOCK]</value>
+  </data>
+  <data name="MacrosesMenuBlockPageMax" xml:space="preserve">
+    <value>Страницы: Максимум [MENUBLOCK]</value>
+  </data>
+  <data name="MacrosesMenuBlockPageMin" xml:space="preserve">
+    <value>Страницы: Минимум [MENUBLOCK]</value>
+  </data>
+  <data name="MacrosesNetBlockMainMax" xml:space="preserve">
+    <value>Главная: Максимум [NETBLOCK]</value>
+  </data>
+  <data name="MacrosesNetBlockMainMin" xml:space="preserve">
+    <value>Главная: Минимум [NETBLOCK]</value>
+  </data>
+  <data name="MacrosesNetBlockPageMax" xml:space="preserve">
+    <value>Страницы: Максимум [NETBLOCK]</value>
+  </data>
+  <data name="MacrosesNetBlockPageMin" xml:space="preserve">
+    <value>Страницы: Минимум [NETBLOCK]</value>
+  </data>
+  <data name="MacrosesSite" xml:space="preserve">
+    <value>[SITE]</value>
+  </data>
+  <data name="MacrosesTitle" xml:space="preserve">
+    <value>[TITLE]</value>
+  </data>
+  <data name="MacrosesUserBlock1MainMax" xml:space="preserve">
+    <value>Главная: Максимум [USERBLOCK1]</value>
+  </data>
+  <data name="MacrosesUserBlock1MainMin" xml:space="preserve">
+    <value>Главная: Минимум [USERBLOCK1]</value>
+  </data>
+  <data name="MacrosesUserBlock1PageMax" xml:space="preserve">
+    <value>Страницы: Максимум [USERBLOCK1]</value>
+  </data>
+  <data name="MacrosesUserBlock1PageMin" xml:space="preserve">
+    <value>Страницы: Минимум [USERBLOCK1]</value>
+  </data>
+  <data name="MacrosesUserBlock2MainMax" xml:space="preserve">
+    <value>Главная: Максимум [USERBLOCK2]</value>
+  </data>
+  <data name="MacrosesUserBlock2MainMin" xml:space="preserve">
+    <value>Главная: Минимум [USERBLOCK2]</value>
+  </data>
+  <data name="MacrosesUserBlock2PageMax" xml:space="preserve">
+    <value>Страницы: Максимум [USERBLOCK2]</value>
+  </data>
+  <data name="MacrosesUserBlock2PageMin" xml:space="preserve">
+    <value>Страницы: Минимум [USERBLOCK2]</value>
+  </data>
+  <data name="MacrosesUserBlock3MainMax" xml:space="preserve">
+    <value>Главная: Максимум [USERBLOCK3]</value>
+  </data>
+  <data name="MacrosesUserBlock3MainMin" xml:space="preserve">
+    <value>Главная: Минимум [USERBLOCK3]</value>
+  </data>
+  <data name="MacrosesUserBlock3PageMax" xml:space="preserve">
+    <value>Страницы: Максимум [USERBLOCK3]</value>
+  </data>
+  <data name="MacrosesUserBlock3PageMin" xml:space="preserve">
+    <value>Страницы: Минимум [USERBLOCK3]</value>
+  </data>
+  <data name="MacrosesUserBlock4MainMax" xml:space="preserve">
+    <value>Главная: Максимум [USERBLOCK4]</value>
+  </data>
+  <data name="MacrosesUserBlock4MainMin" xml:space="preserve">
+    <value>Главная: Минимум [USERBLOCK4]</value>
+  </data>
+  <data name="MacrosesUserBlock4PageMax" xml:space="preserve">
+    <value>Страницы: Максимум [USERBLOCK4]</value>
+  </data>
+  <data name="MacrosesUserBlock4PageMin" xml:space="preserve">
+    <value>Страницы: Минимум [USERBLOCK4]</value>
+  </data>
+  <data name="MacrosesUserBlock5MainMax" xml:space="preserve">
+    <value>Главная: Максимум [USERBLOCK5]</value>
+  </data>
+  <data name="MacrosesUserBlock5MainMin" xml:space="preserve">
+    <value>Главная: Минимум [USERBLOCK5]</value>
+  </data>
+  <data name="MacrosesUserBlock5PageMax" xml:space="preserve">
+    <value>Страницы: Максимум [USERBLOCK5]</value>
+  </data>
+  <data name="MacrosesUserBlock5PageMin" xml:space="preserve">
+    <value>Страницы: Минимум [USERBLOCK5]</value>
+  </data>
+  <data name="MacrosesUserBlock6MainMax" xml:space="preserve">
+    <value>Главная: Максимум [USERBLOCK6]</value>
+  </data>
+  <data name="MacrosesUserBlock6MainMin" xml:space="preserve">
+    <value>Главная: Минимум [USERBLOCK6]</value>
+  </data>
+  <data name="MacrosesUserBlock6PageMax" xml:space="preserve">
+    <value>Страницы: Максимум [USERBLOCK6]</value>
+  </data>
+  <data name="MacrosesUserBlock6PageMin" xml:space="preserve">
+    <value>Страницы: Минимум [USERBLOCK6]</value>
+  </data>
+  <data name="PagesDoorwayType" xml:space="preserve">
+    <value>Тип страниц</value>
+  </data>
+  <data name="PagesDoorwayTypeDescription" xml:space="preserve">
+    <value>Тип страницы: 0 - HTML, 1 - PHP + Text, 2 - PHP+ SQLite.</value>
+  </data>
+  <data name="PagesDynamicCategoriesContinues" xml:space="preserve">
+    <value>Создавать динамические продолжения категорий</value>
+  </data>
+  <data name="PagesDynamicCategoriesContinuesNames1" xml:space="preserve">
+    <value>Имена динамических продолжений категорий #1</value>
+  </data>
+  <data name="PagesDynamicCategoriesContinuesNames2" xml:space="preserve">
+    <value>Имена динамических продолжений категорий #2</value>
+  </data>
+  <data name="PagesDynamicCategoriesNames" xml:space="preserve">
+    <value>Имена динамических категорий</value>
+  </data>
+  <data name="PagesDynamicIndexContinues" xml:space="preserve">
+    <value>Создавать динамические продолжения главной</value>
+  </data>
+  <data name="PagesDynamicIndexContinuesNames" xml:space="preserve">
+    <value>Имена динамических продолжений главной</value>
+  </data>
+  <data name="PagesDynamicKeysPerPageOnContinues" xml:space="preserve">
+    <value>Количество кейвордов на динамическую страницу-продолжение</value>
+  </data>
+  <data name="PagesDynamicPageNames" xml:space="preserve">
+    <value>Имена динамических страниц</value>
+  </data>
+  <data name="PagesDynamicStaticPageNames" xml:space="preserve">
+    <value>Имена динамических статических страниц</value>
+  </data>
+  <data name="PagesStaticCategoriesContinues" xml:space="preserve">
+    <value>Продолжения категорий</value>
+  </data>
+  <data name="PagesStaticCategoriesContinuesNames" xml:space="preserve">
+    <value>Имена страниц продолжения категорий</value>
+  </data>
+  <data name="PagesStaticCategoriesNames" xml:space="preserve">
+    <value>Имена категорий</value>
+  </data>
+  <data name="PagesStaticExtension" xml:space="preserve">
+    <value>Расширение</value>
+  </data>
+  <data name="PagesStaticIndexContinues" xml:space="preserve">
+    <value>Продолжения главной</value>
+  </data>
+  <data name="PagesStaticIndexContinuesNames" xml:space="preserve">
+    <value>Имена страниц продолжения главной</value>
+  </data>
+  <data name="PagesStaticKeysPerPageOnContinues" xml:space="preserve">
+    <value>Количество кейвордов на страницу-продолжение</value>
+  </data>
+  <data name="PagesStaticNamesTypes" xml:space="preserve">
+    <value>Тип имени страниц</value>
+  </data>
+  <data name="PagesStaticNamesTypesDescription" xml:space="preserve">
+    <value>Типы имен страниц: 0 - кейворд, 1 - кейворд (транслит), 2- номер (глобально), 3 - другое, 4 - номер (локально)</value>
+  </data>
+  <data name="PagesStaticPageNames" xml:space="preserve">
+    <value>Имена страниц</value>
+  </data>
+  <data name="PagesStaticSeparator" xml:space="preserve">
+    <value>Разделитель</value>
+  </data>
+  <data name="RobotsContent" xml:space="preserve">
+    <value>Содержание robots.txt</value>
+  </data>
+  <data name="RobotsType" xml:space="preserve">
+    <value>Тип robots.txt</value>
+  </data>
+  <data name="RobotsTypeDescription" xml:space="preserve">
+    <value>Тип robots.txt: 0 - авто, 1- ручной.</value>
+  </data>
+  <data name="RSSCount" xml:space="preserve">
+    <value>Количество записей</value>
+  </data>
+  <data name="SiteMapHTMLLinksMax" xml:space="preserve">
+    <value>Максимальное количество ссылок на странице</value>
+  </data>
+  <data name="SiteMapHTMLLinksMin" xml:space="preserve">
+    <value>Минимальное количество ссылок на странице</value>
+  </data>
+  <data name="SiteMapHTMLName" xml:space="preserve">
+    <value>Имя HTML карты сайта</value>
+  </data>
+  <data name="SiteMapHTMLType" xml:space="preserve">
+    <value>Тип HTML карты сайта</value>
+  </data>
+  <data name="SiteMapHTMLTypeDescription" xml:space="preserve">
+    <value>Типы HTML карты сайта: 0 - одна страница, 1 - много страниц.</value>
+  </data>
+  <data name="SiteMapType" xml:space="preserve">
+    <value>Тип карты сайта</value>
+  </data>
+  <data name="SiteMapTypeDescription" xml:space="preserve">
+    <value>Типы карты сайта: 0 - XML, 1 - HTML, 2 - XML + HTML, 3 - Авто HTML, 4 - XML + Авто HTML.</value>
+  </data>
+  <data name="Spam" xml:space="preserve">
+    <value>Spam</value>
+  </data>
+  <data name="SpamSaveEncoding" xml:space="preserve">
+    <value>Кодировка</value>
+  </data>
+  <data name="SpamSaveEncodingDescription" xml:space="preserve">
+    <value>Кодировки: 0 - ANSI, 1 - UTF-8.</value>
+  </data>
+  <data name="SpamSaveToFile" xml:space="preserve">
+    <value>Сохранять</value>
+  </data>
+  <data name="SpamSaveToFilePath" xml:space="preserve">
+    <value>Сохранять в</value>
+  </data>
+  <data name="SpamSaveToFileType" xml:space="preserve">
+    <value>Тип сохранения ссылок</value>
+  </data>
+  <data name="SpamSaveToFileTypeDescription" xml:space="preserve">
+    <value>Типы сохранения ссылок: 0 - Один файл/дорвей, 1 - Много файлов/Дорвей, 2 - Один файл/Дорвеи, 3 - Много файлов/Дорвеи.</value>
+  </data>
+  <data name="SpamUrlTypeList" xml:space="preserve">
+    <value>Список шаблонов для ссылок</value>
+  </data>
+  <data name="StaticPages" xml:space="preserve">
+    <value>Статические страницы</value>
+  </data>
+  <data name="StaticPagesIncludeIntoSiteMap" xml:space="preserve">
+    <value>Включать статические страницы в карту сайта</value>
+  </data>
+  <data name="StaticPagesList" xml:space="preserve">
+    <value>Список статических страниц</value>
+  </data>
+  <data name="Tokens" xml:space="preserve">
+    <value>Макросы</value>
+  </data>
+  <data name="TextGenration" xml:space="preserve">
+    <value>Тип генерирования текста</value>
+  </data>
+  <data name="TextGenrationCGConsiderProbability" xml:space="preserve">
+    <value>Учитывать вероятности для цепей, графов, би/триграмм</value>
+  </data>
+  <data name="TextGenrationCGConstructionInsertWordsMax" xml:space="preserve">
+    <value>Максимальное количество слов для удлиненного построения текста для цепей, графов, би/триграмм</value>
+  </data>
+  <data name="TextGenrationCGConstructionInsertWordsMin" xml:space="preserve">
+    <value>Минимальное количество слов для удлиненного построения текста для цепей, графов, би/триграмм</value>
+  </data>
+  <data name="TextGenrationCGConstructionType" xml:space="preserve">
+    <value>Тип построения текста для цепей, графов, би/триграмм</value>
+  </data>
+  <data name="TextGenrationCGConstructionTypeDescription" xml:space="preserve">
+    <value>Типы построения текста для цепей, графов, би/триграмм: 0 - простое, 1 - удлиненное.</value>
+  </data>
+  <data name="TextGenrationCGPunctuationMarksConsideration" xml:space="preserve">
+    <value>Тип учета знаков препинания для цепей, графов, би/триграмм</value>
+  </data>
+  <data name="TextGenrationCGPunctuationMarksConsiderationDescription" xml:space="preserve">
+    <value>Типы учета знаков препинания для цепей, графов, би/триграмм: 0 - учитывать, 1 - не учитывать.</value>
+  </data>
+  <data name="TextGenrationCGTextAnalyseCutWordsLength" xml:space="preserve">
+    <value>Обрезать длинные слова после N символов для цепей, графов, би/триграмм</value>
+  </data>
+  <data name="TextGenrationCGTextAnalyseType" xml:space="preserve">
+    <value>Тип анализа текста для цепей, графов, би/триграмм</value>
+  </data>
+  <data name="TextGenrationCGTextAnalyseTypeDescription" xml:space="preserve">
+    <value>Тип анализа текста для цепей, графов, би/триграмм: 0 - целые слова, 1 - слова без окончаний.</value>
+  </data>
+  <data name="TextGenrationDescription" xml:space="preserve">
+    <value>Типы генерирования текста: 0 - классическая цепь Маркова, 1 - модифицированаая цепь Маркова, 2 - концептуальные графы, 3 - биграммы, 4 - триграммы, 5 - смешивание, 6 - случайное построение, 7 - копи/паст, 8 - построчный копипаст, 9 - соединение по запятым, 10 - случайное соединение по запятым, 11 - реверс, 12 - построчный реверс, 13 - улучшеный реверс, 14 - построчный улучшеный реверс, 15 - блочный копи/паст, 16 - блочный реверс, 17 - блочный улучшеный реверс.</value>
+  </data>
+  <data name="TextGenrationInsertKeywordsType" xml:space="preserve">
+    <value>Тип вставки кейвордов</value>
+  </data>
+  <data name="TextGenrationInsertKeywordsTypeDescription" xml:space="preserve">
+    <value>Типы вставки кейвордов: 0 - случайно, 1 - с шагом, 2 - в начале предложений, 3 - после знаков препинания.</value>
+  </data>
+  <data name="TextGenrationInsertKeywordsСonfusion" xml:space="preserve">
+    <value>Погрешность (±) при шаге вставки кейвордов в текст</value>
+  </data>
+  <data name="TextGenrationInsertOtherKeywords" xml:space="preserve">
+    <value>Вставлять другие кеи</value>
+  </data>
+  <data name="TextGenrationInsertOtherKeywordsPercentage" xml:space="preserve">
+    <value>Процент других кеев</value>
+  </data>
+  <data name="TextGenrationKeywordsMoreThanOneOnPage" xml:space="preserve">
+    <value>Использовать больше одного кейворда на страницах</value>
+  </data>
+  <data name="TextGenrationKeywordsOnPageMax" xml:space="preserve">
+    <value>Максимальное количество кейвордов на странице</value>
+  </data>
+  <data name="TextGenrationKeywordsOnPageMin" xml:space="preserve">
+    <value>Минимальное количество кейвордов на странице</value>
+  </data>
+  <data name="TextGenrationKeywordsPercentageMax" xml:space="preserve">
+    <value>Максимальный процент вхождения кейвордов в текст</value>
+  </data>
+  <data name="TextGenrationKeywordsPercentageMin" xml:space="preserve">
+    <value>Минимальный процент вхождения кейвордов в текст</value>
+  </data>
+  <data name="TextGenrationMRAIConstructionInsertWordsMax" xml:space="preserve">
+    <value>Максимальное количество слов для удлиненного построения текста для смешивания, рандома, копи-паста</value>
+  </data>
+  <data name="TextGenrationMRAIConstructionInsertWordsMin" xml:space="preserve">
+    <value>Минимальное количество слов для удлиненного построения текста для смешивания, рандома, копи-паста</value>
+  </data>
+  <data name="TextGenrationMRAIConstructionType" xml:space="preserve">
+    <value>Тип построения текста для смешивания, рандома, копи-паста</value>
+  </data>
+  <data name="TextGenrationMRAIConstructionTypeDescription" xml:space="preserve">
+    <value>Типы построения текста для смешивания, рандома, копи-паста:  0 - простое, 1 - удлиненное.</value>
+  </data>
+  <data name="TextGenrationMRAIPunctuationMarksConsideration" xml:space="preserve">
+    <value>Тип учета знаков препинания для смешивания, рандома, копи-паста</value>
+  </data>
+  <data name="TextGenrationMRAIPunctuationMarksConsiderationDescription" xml:space="preserve">
+    <value>Типы учета знаков препинания для смешивания, рандома, копи-паста: 0 - учитывать, 1 - не учитывать.</value>
+  </data>
+  <data name="TextGenrationMRAIRadius" xml:space="preserve">
+    <value>Радиус использования текста для смешивания, рандома, копи-паста</value>
+  </data>
+  <data name="TextGenrationMRAIType" xml:space="preserve">
+    <value>Тип генерирования для смешивания, рандома, копи-паста</value>
+  </data>
+  <data name="TextGenrationMRAITypeDescription" xml:space="preserve">
+    <value>Типы генерирования для смешивания, рандома, копи-паста: 0 - слова, 1 - части предложений, 2 - предложения.</value>
+  </data>
+  <data name="TextGenrationParagraphs" xml:space="preserve">
+    <value>Разделять текст на параграфы</value>
+  </data>
+  <data name="TextGenrationParagraphsMax" xml:space="preserve">
+    <value>Максимальное количество параграфов</value>
+  </data>
+  <data name="TextGenrationParagraphsMin" xml:space="preserve">
+    <value>Минимальное количество параграфов</value>
+  </data>
+  <data name="TextGenrationPersentageForEachKeyword" xml:space="preserve">
+    <value>Процент вставки кейвордов для каждого кея</value>
+  </data>
+  <data name="TextGenrationPunctuationMarks" xml:space="preserve">
+    <value>Вставлять знаки препинания</value>
+  </data>
+  <data name="TextGenrationPunctuationMarksInsertMax" xml:space="preserve">
+    <value>Максимальное количество знаков препинания в тексте</value>
+  </data>
+  <data name="TextGenrationPunctuationMarksInsertMin" xml:space="preserve">
+    <value>Минимальное количество знаков препинания в тексте</value>
+  </data>
+  <data name="TextGenrationPunctuationMarksList" xml:space="preserve">
+    <value>Список знаков препинания</value>
+  </data>
+  <data name="TextGenrationSelectKeywords" xml:space="preserve">
+    <value>Выделять кейворды</value>
+  </data>
+  <data name="TextGenrationSelectKeywordsTags" xml:space="preserve">
+    <value>Список тегов для выделения кейвордов</value>
+  </data>
+  <data name="TextGenrationSelectPercentage" xml:space="preserve">
+    <value>Процент выделения кейвордов и фраз</value>
+  </data>
+  <data name="TextGenrationSelectPhrases" xml:space="preserve">
+    <value>Выделять фразы</value>
+  </data>
+  <data name="TextGenrationSelectPhrasesTags" xml:space="preserve">
+    <value>Список тегов для выделения фраз</value>
+  </data>
+  <data name="TextGenrationSentencesCount" xml:space="preserve">
+    <value>Количество предложений</value>
+  </data>
+  <data name="TextGenrationSentencesLength" xml:space="preserve">
+    <value>Длина предложений</value>
+  </data>
+  <data name="TextGenrationSentencesLengthType" xml:space="preserve">
+    <value>Тип длины предложений</value>
+  </data>
+  <data name="TextGenrationSentencesLengthTypeDescription" xml:space="preserve">
+    <value>Типы длины предложений: 0 - случайно, 1 - с шагом.</value>
+  </data>
+  <data name="TextGenrationSentencesLengthСonfusion" xml:space="preserve">
+    <value>Погрешность (±) длины предложений</value>
+  </data>
+  <data name="TextGenrationSentencesMakeBigLetters" xml:space="preserve">
+    <value>Большие буквы в начале предложений</value>
+  </data>
+  <data name="TextGenrationTextLengthMax" xml:space="preserve">
+    <value>Максимальная длина генерируемого текста</value>
+  </data>
+  <data name="TextGenrationTextLengthMin" xml:space="preserve">
+    <value>Минимальная длина генерируемого текста</value>
+  </data>
+  <data name="S000001" xml:space="preserve">
+    <value>Старт...</value>
+  </data>
+  <data name="S000002" xml:space="preserve">
+    <value>Проверка лицензии...</value>
+  </data>
+  <data name="S000003" xml:space="preserve">
+    <value>Перепроверить</value>
+  </data>
+  <data name="S000004" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="S000005" xml:space="preserve">
+    <value>Загрузка данных...</value>
+  </data>
+  <data name="S000006" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="S000007" xml:space="preserve">
+    <value>Невозможно проверить лицензию</value>
+  </data>
+  <data name="S000008" xml:space="preserve">
+    <value>Нет данных. Невозможно продолжать работу</value>
+  </data>
+  <data name="S000009" xml:space="preserve">
+    <value>Задание</value>
+  </data>
+  <data name="S000010" xml:space="preserve">
+    <value>Новое</value>
+  </data>
+  <data name="S000011" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="S000012" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="S000013" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="S000014" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="S000015" xml:space="preserve">
+    <value>Пресет</value>
+  </data>
+  <data name="S000016" xml:space="preserve">
+    <value>Шаблон</value>
+  </data>
+  <data name="S000017" xml:space="preserve">
+    <value>Кейворды</value>
+  </data>
+  <data name="S000018" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="S000019" xml:space="preserve">
+    <value>Задания</value>
+  </data>
+  <data name="S000020" xml:space="preserve">
+    <value>Ссылки</value>
+  </data>
+  <data name="S000021" xml:space="preserve">
+    <value>Макросы</value>
+  </data>
+  <data name="S000022" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="S000023" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="S000024" xml:space="preserve">
+    <value>Хост</value>
+  </data>
+  <data name="S000025" xml:space="preserve">
+    <value>Аккаунт</value>
+  </data>
+  <data name="S000026" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="S000027" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="S000028" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="S000029" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="S000030" xml:space="preserve">
+    <value>Макрос</value>
+  </data>
+  <data name="S000031" xml:space="preserve">
+    <value>Кодировка</value>
+  </data>
+  <data name="S000032" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="S000033" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="S000034" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="S000035" xml:space="preserve">
+    <value>Случайно</value>
+  </data>
+  <data name="S000036" xml:space="preserve">
+    <value>Последовательно</value>
+  </data>
+  <data name="S000037" xml:space="preserve">
+    <value>Одна строка/Дорвей</value>
+  </data>
+  <data name="S000038" xml:space="preserve">
+    <value>Случайная строка/Дорвей</value>
+  </data>
+  <data name="S000039" xml:space="preserve">
+    <value>Генерирование</value>
+  </data>
+  <data name="S000040" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="S000041" xml:space="preserve">
+    <value>Время начала</value>
+  </data>
+  <data name="S000042" xml:space="preserve">
+    <value>Шаг</value>
+  </data>
+  <data name="S000043" xml:space="preserve">
+    <value>минут</value>
+  </data>
+  <data name="S000044" xml:space="preserve">
+    <value>В демонстрационном режиме программа не генерирует задания.</value>
+  </data>
+  <data name="S000045" xml:space="preserve">
+    <value>Тэги</value>
+  </data>
+  <data name="RSSFileName" xml:space="preserve">
+    <value>Имя файла RSS</value>
+  </data>
+  <data name="Consequentially" xml:space="preserve">
+    <value>Последовательно</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>Случайно</value>
+  </data>
+  <data name="S000046" xml:space="preserve">
+    <value>Кеи и текст</value>
+  </data>
+  <data name="XRumer" xml:space="preserve">
+    <value>XRumer</value>
+  </data>
+  <data name="XRumerDirectory" xml:space="preserve">
+    <value>Путь к папке</value>
+  </data>
+  <data name="XRumerTemplate" xml:space="preserve">
+    <value>Шаблон</value>
+  </data>
+  <data name="XRumerUse" xml:space="preserve">
+    <value>Создавать задания</value>
+  </data>
+  <data name="XRumerText" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="LinksRelativeURLs" xml:space="preserve">
+    <value>Относительные URL</value>
+  </data>
+  <data name="LinksExternalInText" xml:space="preserve">
+    <value>Внешние ссылки в тексте</value>
+  </data>
+  <data name="LinksExternalInTextDescription" xml:space="preserve">
+    <value>Вставлять в текст [TEXT] и аналогичных макросов внешние ссылки</value>
+  </data>
+  <data name="LinksExternalInTextIndexPageMaximum" xml:space="preserve">
+    <value>Максимальное кол-во внешних ссылок в тексте на почти всех типах страниц</value>
+  </data>
+  <data name="LinksExternalInTextIndexPageMaximumDescription" xml:space="preserve">
+    <value>Максимальное кол-во внешних ссылок в тексте на почти всех типах страниц, кроме обычных страниц</value>
+  </data>
+  <data name="LinksExternalInTextIndexPageMinimum" xml:space="preserve">
+    <value>Минимальное кол-во внешних ссылок в тексте на почти всех типах страниц</value>
+  </data>
+  <data name="LinksExternalInTextIndexPageMinimumDescription" xml:space="preserve">
+    <value>Минимальное кол-во внешних ссылок в тексте на почти всех типах страниц, кроме обычных страниц</value>
+  </data>
+  <data name="LinksExternalInTextRegularPageMaximum" xml:space="preserve">
+    <value>Максимальное кол-во внешних ссылок на обычных страницах</value>
+  </data>
+  <data name="LinksExternalInTextRegularPageMinimum" xml:space="preserve">
+    <value>Минимальное кол-во внешних ссылок на обычных страницах</value>
+  </data>
+</root>

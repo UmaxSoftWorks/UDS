@@ -1,0 +1,1503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="S0000001" xml:space="preserve">
+    <value>Do you really want close program?</value>
+  </data>
+  <data name="S0000002" xml:space="preserve">
+    <value>Closing...</value>
+  </data>
+  <data name="S0000003" xml:space="preserve">
+    <value>Starting...</value>
+  </data>
+  <data name="S0000004" xml:space="preserve">
+    <value>Action:</value>
+  </data>
+  <data name="S0000005" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="S0000006" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="S0000007" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="S0000008" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="S0000009" xml:space="preserve">
+    <value>Checking license...</value>
+  </data>
+  <data name="S0000010" xml:space="preserve">
+    <value>Loading data...</value>
+  </data>
+  <data name="S0000011" xml:space="preserve">
+    <value>Working...</value>
+  </data>
+  <data name="S0000012" xml:space="preserve">
+    <value>Checking HID...</value>
+  </data>
+  <data name="S0000013" xml:space="preserve">
+    <value>Online activation...</value>
+  </data>
+  <data name="S0000014" xml:space="preserve">
+    <value>License file corrupted.</value>
+  </data>
+  <data name="S0000015" xml:space="preserve">
+    <value>Current HID doesn't match with license HID.</value>
+  </data>
+  <data name="S0000016" xml:space="preserve">
+    <value>Can't validate license.</value>
+  </data>
+  <data name="S0000017" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="S0000018" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="S0000019" xml:space="preserve">
+    <value>Tasks</value>
+  </data>
+  <data name="S0000020" xml:space="preserve">
+    <value>Doorways</value>
+  </data>
+  <data name="S0000021" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="S0000022" xml:space="preserve">
+    <value>Current Tasks</value>
+  </data>
+  <data name="S0000023" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="S0000024" xml:space="preserve">
+    <value>Do you really want delete WorkSpace </value>
+  </data>
+  <data name="S0000025" xml:space="preserve">
+    <value>Deleting WorkSpace...</value>
+  </data>
+  <data name="S0000026" xml:space="preserve">
+    <value>Running...</value>
+  </data>
+  <data name="S0000027" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="S0000028" xml:space="preserve">
+    <value>Stopped</value>
+  </data>
+  <data name="S0000029" xml:space="preserve">
+    <value>Uploading...</value>
+  </data>
+  <data name="S0000030" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="S0000031" xml:space="preserve">
+    <value>Show/Hide</value>
+  </data>
+  <data name="S0000032" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="S0000033" xml:space="preserve">
+    <value>New WorkSpace</value>
+  </data>
+  <data name="S0000034" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="S0000035" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="S0000036" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="S0000037" xml:space="preserve">
+    <value>Templates</value>
+  </data>
+  <data name="S0000038" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="S0000039" xml:space="preserve">
+    <value>Presets</value>
+  </data>
+  <data name="S0000040" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="S0000041" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="S0000042" xml:space="preserve">
+    <value>Show News</value>
+  </data>
+  <data name="S0000043" xml:space="preserve">
+    <value>Show Tips</value>
+  </data>
+  <data name="S0000044" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="S0000045" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="S0000046" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="S0000047" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="S0000048" xml:space="preserve">
+    <value>Get Hardware ID</value>
+  </data>
+  <data name="S0000049" xml:space="preserve">
+    <value>About...</value>
+  </data>
+  <data name="S0000050" xml:space="preserve">
+    <value>Check for Update</value>
+  </data>
+  <data name="S0000051" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="S0000052" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="S0000053" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="S0000054" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="S0000055" xml:space="preserve">
+    <value>Save as...</value>
+  </data>
+  <data name="S0000056" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="S0000057" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="S0000058" xml:space="preserve">
+    <value>Started...</value>
+  </data>
+  <data name="S0000059" xml:space="preserve">
+    <value>Elapsed</value>
+  </data>
+  <data name="S0000060" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="S0000061" xml:space="preserve">
+    <value>EULA</value>
+  </data>
+  <data name="S0000062" xml:space="preserve">
+    <value>I agree with EULA</value>
+  </data>
+  <data name="S0000063" xml:space="preserve">
+    <value>Online license agreement:</value>
+  </data>
+  <data name="S0000064" xml:space="preserve">
+    <value>Export/Edit</value>
+  </data>
+  <data name="S0000065" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="S0000066" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="S0000067" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="S0000068" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="S0000069" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="S0000070" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="S0000071" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="S0000072" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="S0000073" xml:space="preserve">
+    <value>Copy to Clipboard</value>
+  </data>
+  <data name="S0000074" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="S0000075" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="S0000076" xml:space="preserve">
+    <value>New/Edit</value>
+  </data>
+  <data name="S0000077" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="S0000078" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="S0000079" xml:space="preserve">
+    <value>Maximum parallel running tasks</value>
+  </data>
+  <data name="S0000080" xml:space="preserve">
+    <value>Delete finished tasks after</value>
+  </data>
+  <data name="S0000081" xml:space="preserve">
+    <value>day(s)</value>
+  </data>
+  <data name="S0000082" xml:space="preserve">
+    <value>Clear folder where doorway(s) will be saved</value>
+  </data>
+  <data name="S0000083" xml:space="preserve">
+    <value>Start with Windows</value>
+  </data>
+  <data name="S0000084" xml:space="preserve">
+    <value>Start Minimized</value>
+  </data>
+  <data name="S0000085" xml:space="preserve">
+    <value>Baloons</value>
+  </data>
+  <data name="S0000086" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="S0000087" xml:space="preserve">
+    <value>ShowTime</value>
+  </data>
+  <data name="S0000088" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="S0000089" xml:space="preserve">
+    <value>Chart</value>
+  </data>
+  <data name="S0000090" xml:space="preserve">
+    <value>Total Statistics</value>
+  </data>
+  <data name="S0000091" xml:space="preserve">
+    <value>This Month Statistics</value>
+  </data>
+  <data name="S0000092" xml:space="preserve">
+    <value>Tasks: Done/Total</value>
+  </data>
+  <data name="S0000093" xml:space="preserve">
+    <value>Doorways: Done/Total</value>
+  </data>
+  <data name="S0000094" xml:space="preserve">
+    <value>Pages: Done</value>
+  </data>
+  <data name="S0000095" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="S0000096" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="S0000097" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="S0000098" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="S0000099" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="S0000100" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="S0000101" xml:space="preserve">
+    <value>Create/Threads</value>
+  </data>
+  <data name="S0000102" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="S0000103" xml:space="preserve">
+    <value>Number of Threads</value>
+  </data>
+  <data name="S0000104" xml:space="preserve">
+    <value>dorway(s)</value>
+  </data>
+  <data name="S0000105" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="S0000106" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="S0000107" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="S0000108" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="S0000109" xml:space="preserve">
+    <value>Use images:</value>
+  </data>
+  <data name="S0000110" xml:space="preserve">
+    <value>Create SubFolders</value>
+  </data>
+  <data name="S0000111" xml:space="preserve">
+    <value>Dorway(s) Urls</value>
+  </data>
+  <data name="S0000112" xml:space="preserve">
+    <value>File Macroses</value>
+  </data>
+  <data name="S0000113" xml:space="preserve">
+    <value>Macross</value>
+  </data>
+  <data name="S0000114" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="S0000115" xml:space="preserve">
+    <value>Keywords/Categories</value>
+  </data>
+  <data name="S0000116" xml:space="preserve">
+    <value>Keywords using</value>
+  </data>
+  <data name="S0000117" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="S0000118" xml:space="preserve">
+    <value>Reorder</value>
+  </data>
+  <data name="S0000119" xml:space="preserve">
+    <value>Reorder Keywords</value>
+  </data>
+  <data name="S0000120" xml:space="preserve">
+    <value>Reorder Words in Keywords</value>
+  </data>
+  <data name="S0000121" xml:space="preserve">
+    <value>Synonyms</value>
+  </data>
+  <data name="S0000122" xml:space="preserve">
+    <value>Use</value>
+  </data>
+  <data name="S0000123" xml:space="preserve">
+    <value>Merge</value>
+  </data>
+  <data name="S0000124" xml:space="preserve">
+    <value>With</value>
+  </data>
+  <data name="S0000125" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="S0000126" xml:space="preserve">
+    <value>Dynamic</value>
+  </data>
+  <data name="S0000127" xml:space="preserve">
+    <value>Static</value>
+  </data>
+  <data name="S0000128" xml:space="preserve">
+    <value>Distribute</value>
+  </data>
+  <data name="S0000129" xml:space="preserve">
+    <value>Doorway Type</value>
+  </data>
+  <data name="S0000130" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="S0000131" xml:space="preserve">
+    <value>Ext.</value>
+  </data>
+  <data name="S0000132" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="S0000133" xml:space="preserve">
+    <value>Names</value>
+  </data>
+  <data name="S0000134" xml:space="preserve">
+    <value>Page Names</value>
+  </data>
+  <data name="S0000135" xml:space="preserve">
+    <value>Cat. Names</value>
+  </data>
+  <data name="S0000136" xml:space="preserve">
+    <value>Continues</value>
+  </data>
+  <data name="S0000137" xml:space="preserve">
+    <value>Create Index Continues</value>
+  </data>
+  <data name="S0000138" xml:space="preserve">
+    <value>Create Categories Continues</value>
+  </data>
+  <data name="S0000139" xml:space="preserve">
+    <value>Keys/Page</value>
+  </data>
+  <data name="S0000140" xml:space="preserve">
+    <value>S.Page Names</value>
+  </data>
+  <data name="S0000141" xml:space="preserve">
+    <value>Static Pages/RSS</value>
+  </data>
+  <data name="S0000142" xml:space="preserve">
+    <value>SiteMap</value>
+  </data>
+  <data name="S0000143" xml:space="preserve">
+    <value>HTML SiteMap Settings</value>
+  </data>
+  <data name="S0000144" xml:space="preserve">
+    <value>Links on page</value>
+  </data>
+  <data name="S0000145" xml:space="preserve">
+    <value>Text Generating</value>
+  </data>
+  <data name="S0000146" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="S0000147" xml:space="preserve">
+    <value>Text Length (Words)</value>
+  </data>
+  <data name="S0000148" xml:space="preserve">
+    <value>Words</value>
+  </data>
+  <data name="S0000149" xml:space="preserve">
+    <value>Keywords on Page</value>
+  </data>
+  <data name="S0000150" xml:space="preserve">
+    <value>More than one</value>
+  </data>
+  <data name="S0000151" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="S0000152" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="S0000153" xml:space="preserve">
+    <value>Percentage for Each Key</value>
+  </data>
+  <data name="S0000154" xml:space="preserve">
+    <value>Insert Other Keywords</value>
+  </data>
+  <data name="S0000155" xml:space="preserve">
+    <value>Selection</value>
+  </data>
+  <data name="S0000156" xml:space="preserve">
+    <value>Phrases</value>
+  </data>
+  <data name="S0000157" xml:space="preserve">
+    <value>Punctuation marks</value>
+  </data>
+  <data name="S0000158" xml:space="preserve">
+    <value>Paragraphs</value>
+  </data>
+  <data name="S0000159" xml:space="preserve">
+    <value>Chains, Graphs, Bi/Trigrams</value>
+  </data>
+  <data name="S0000160" xml:space="preserve">
+    <value>Text Analyse</value>
+  </data>
+  <data name="S0000161" xml:space="preserve">
+    <value>If words longer</value>
+  </data>
+  <data name="S0000162" xml:space="preserve">
+    <value>chars</value>
+  </data>
+  <data name="S0000163" xml:space="preserve">
+    <value>Construction</value>
+  </data>
+  <data name="S0000164" xml:space="preserve">
+    <value>Insert words</value>
+  </data>
+  <data name="S0000165" xml:space="preserve">
+    <value>Consider probability</value>
+  </data>
+  <data name="S0000166" xml:space="preserve">
+    <value>Sentences</value>
+  </data>
+  <data name="S0000167" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="S0000168" xml:space="preserve">
+    <value>Big letters</value>
+  </data>
+  <data name="S0000169" xml:space="preserve">
+    <value>Mix/Random/Copy/Paste</value>
+  </data>
+  <data name="S0000170" xml:space="preserve">
+    <value>Radius</value>
+  </data>
+  <data name="S0000171" xml:space="preserve">
+    <value>Macroses</value>
+  </data>
+  <data name="S0000172" xml:space="preserve">
+    <value>Blocks</value>
+  </data>
+  <data name="S0000173" xml:space="preserve">
+    <value>Main/Cat</value>
+  </data>
+  <data name="S0000174" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="S0000175" xml:space="preserve">
+    <value>Entrance</value>
+  </data>
+  <data name="S0000176" xml:space="preserve">
+    <value>Insert Type</value>
+  </data>
+  <data name="S0000177" xml:space="preserve">
+    <value>Encrypt</value>
+  </data>
+  <data name="S0000178" xml:space="preserve">
+    <value>Acceptor adress</value>
+  </data>
+  <data name="S0000179" xml:space="preserve">
+    <value>Redirect/Frame/Button "Enter" HTML-code</value>
+  </data>
+  <data name="S0000180" xml:space="preserve">
+    <value>Links &amp;&amp; Spam</value>
+  </data>
+  <data name="S0000181" xml:space="preserve">
+    <value>Internal Links</value>
+  </data>
+  <data name="S0000182" xml:space="preserve">
+    <value>Create Links in text</value>
+  </data>
+  <data name="S0000183" xml:space="preserve">
+    <value>Anchors:</value>
+  </data>
+  <data name="S0000184" xml:space="preserve">
+    <value>Links length (words):</value>
+  </data>
+  <data name="S0000185" xml:space="preserve">
+    <value>External Links</value>
+  </data>
+  <data name="S0000186" xml:space="preserve">
+    <value>Types of links</value>
+  </data>
+  <data name="S0000187" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="S0000188" xml:space="preserve">
+    <value>Upload Settings</value>
+  </data>
+  <data name="S0000189" xml:space="preserve">
+    <value>Upload in Background</value>
+  </data>
+  <data name="S0000190" xml:space="preserve">
+    <value>Delete files after upload</value>
+  </data>
+  <data name="S0000191" xml:space="preserve">
+    <value>Threads per Upload</value>
+  </data>
+  <data name="S0000192" xml:space="preserve">
+    <value>FTP Data</value>
+  </data>
+  <data name="S0000193" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="S0000194" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="S0000195" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="S0000196" xml:space="preserve">
+    <value>License type</value>
+  </data>
+  <data name="S0000197" xml:space="preserve">
+    <value>Evaluation</value>
+  </data>
+  <data name="S0000198" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+  <data name="S0000199" xml:space="preserve">
+    <value>Load from...</value>
+  </data>
+  <data name="S0000200" xml:space="preserve">
+    <value>From Template</value>
+  </data>
+  <data name="S0000201" xml:space="preserve">
+    <value>From Template (+Raname)</value>
+  </data>
+  <data name="S0000202" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="S0000203" xml:space="preserve">
+    <value>Template + Generate</value>
+  </data>
+  <data name="S0000204" xml:space="preserve">
+    <value>Template + Generate (+Rename)</value>
+  </data>
+  <data name="S0000205" xml:space="preserve">
+    <value>Don't pack</value>
+  </data>
+  <data name="S0000206" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="S0000207" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="S0000208" xml:space="preserve">
+    <value>Keyword + Number</value>
+  </data>
+  <data name="S0000209" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="S0000210" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="S0000211" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="S0000212" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="S0000213" xml:space="preserve">
+    <value>If Conatains</value>
+  </data>
+  <data name="S0000214" xml:space="preserve">
+    <value>PHP + Text</value>
+  </data>
+  <data name="S0000215" xml:space="preserve">
+    <value>Keyword (translit)</value>
+  </data>
+  <data name="S0000216" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="S0000217" xml:space="preserve">
+    <value>One page</value>
+  </data>
+  <data name="S0000218" xml:space="preserve">
+    <value>Multipage</value>
+  </data>
+  <data name="S0000219" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="S0000220" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="S0000221" xml:space="preserve">
+    <value>Markov Chain, Classic</value>
+  </data>
+  <data name="S0000222" xml:space="preserve">
+    <value>Markov Chain</value>
+  </data>
+  <data name="S0000223" xml:space="preserve">
+    <value>Conceptual Graphs</value>
+  </data>
+  <data name="S0000224" xml:space="preserve">
+    <value>Mixing</value>
+  </data>
+  <data name="S0000225" xml:space="preserve">
+    <value>Copy/Paste</value>
+  </data>
+  <data name="S0000226" xml:space="preserve">
+    <value>Whole</value>
+  </data>
+  <data name="S0000227" xml:space="preserve">
+    <value>Without Endings</value>
+  </data>
+  <data name="S0000228" xml:space="preserve">
+    <value>Simple</value>
+  </data>
+  <data name="S0000229" xml:space="preserve">
+    <value>Elongated</value>
+  </data>
+  <data name="S0000230" xml:space="preserve">
+    <value>Consider</value>
+  </data>
+  <data name="S0000231" xml:space="preserve">
+    <value>Don't consider</value>
+  </data>
+  <data name="S0000232" xml:space="preserve">
+    <value>With Step</value>
+  </data>
+  <data name="S0000233" xml:space="preserve">
+    <value>Parts of sentences</value>
+  </data>
+  <data name="S0000234" xml:space="preserve">
+    <value>Full Urls</value>
+  </data>
+  <data name="S0000235" xml:space="preserve">
+    <value>Redirect</value>
+  </data>
+  <data name="S0000236" xml:space="preserve">
+    <value>Frame</value>
+  </data>
+  <data name="S0000237" xml:space="preserve">
+    <value>Insert into page</value>
+  </data>
+  <data name="S0000238" xml:space="preserve">
+    <value>Insert into page via document.write</value>
+  </data>
+  <data name="S0000239" xml:space="preserve">
+    <value>Insert into external .js file</value>
+  </data>
+  <data name="S0000240" xml:space="preserve">
+    <value>Regular upload</value>
+  </data>
+  <data name="S0000241" xml:space="preserve">
+    <value>Make FileZilla project</value>
+  </data>
+  <data name="S0000242" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="S0000243" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="S0000244" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="S0000245" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="S0000246" xml:space="preserve">
+    <value>Remote Folder</value>
+  </data>
+  <data name="S0000247" xml:space="preserve">
+    <value>In evaluation version you can't create more than 3 WorkSpaces!</value>
+  </data>
+  <data name="S0000248" xml:space="preserve">
+    <value>In demo version you can't create more than 1 WorkSpace!</value>
+  </data>
+  <data name="S0000249" xml:space="preserve">
+    <value>This WorkSpace is already exists!</value>
+  </data>
+  <data name="S0000250" xml:space="preserve">
+    <value>Some fields filled incorrect!</value>
+  </data>
+  <data name="S0000251" xml:space="preserve">
+    <value>At the beginning of sentences</value>
+  </data>
+  <data name="S0000252" xml:space="preserve">
+    <value>After punctuation marks</value>
+  </data>
+  <data name="S0000253" xml:space="preserve">
+    <value>Update!</value>
+  </data>
+  <data name="S0000254" xml:space="preserve">
+    <value>Avaliable new version, download?</value>
+  </data>
+  <data name="S0000255" xml:space="preserve">
+    <value>You are using latest verion!</value>
+  </data>
+  <data name="S0000256" xml:space="preserve">
+    <value>Updater</value>
+  </data>
+  <data name="S0000257" xml:space="preserve">
+    <value>Open folder with downloaded archive</value>
+  </data>
+  <data name="S0000258" xml:space="preserve">
+    <value>Kb</value>
+  </data>
+  <data name="S0000259" xml:space="preserve">
+    <value>Weeks</value>
+  </data>
+  <data name="S0000260" xml:space="preserve">
+    <value>Tasks/Doorways</value>
+  </data>
+  <data name="S0000261" xml:space="preserve">
+    <value>Scheduled</value>
+  </data>
+  <data name="S0000262" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="S0000263" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="S0000264" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="S0000265" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="S0000266" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="S0000267" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="S0000268" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="S0000269" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="S0000270" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="S0000271" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="S0000272" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="S0000273" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="S0000274" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="S0000275" xml:space="preserve">
+    <value>Bigram</value>
+  </data>
+  <data name="S0000276" xml:space="preserve">
+    <value>Trigram</value>
+  </data>
+  <data name="S0000277" xml:space="preserve">
+    <value>Occured error while filling settings!</value>
+  </data>
+  <data name="S0000278" xml:space="preserve">
+    <value>Big Text</value>
+  </data>
+  <data name="S0000279" xml:space="preserve">
+    <value>Modify Template Images</value>
+  </data>
+  <data name="S0000280" xml:space="preserve">
+    <value>Include static pages into SiteMap.</value>
+  </data>
+  <data name="S0000281" xml:space="preserve">
+    <value>Urls</value>
+  </data>
+  <data name="S0000282" xml:space="preserve">
+    <value>Save links in files</value>
+  </data>
+  <data name="S0000283" xml:space="preserve">
+    <value>One file/Doorway</value>
+  </data>
+  <data name="S0000284" xml:space="preserve">
+    <value>Many files/Doorway</value>
+  </data>
+  <data name="S0000285" xml:space="preserve">
+    <value>One file/Doorways</value>
+  </data>
+  <data name="S0000286" xml:space="preserve">
+    <value>Many files/Doorways</value>
+  </data>
+  <data name="S0000287" xml:space="preserve">
+    <value>Successively</value>
+  </data>
+  <data name="S0000288" xml:space="preserve">
+    <value>One line/Doorway</value>
+  </data>
+  <data name="S0000290" xml:space="preserve">
+    <value>Delete all tasks</value>
+  </data>
+  <data name="S0000291" xml:space="preserve">
+    <value>Deleting all tasks...</value>
+  </data>
+  <data name="S0000292" xml:space="preserve">
+    <value>Do you realy want to delete all tasks?</value>
+  </data>
+  <data name="S0000293" xml:space="preserve">
+    <value>Delete all finished tasks</value>
+  </data>
+  <data name="S0000294" xml:space="preserve">
+    <value>Deleting all finished tasks...</value>
+  </data>
+  <data name="S0000295" xml:space="preserve">
+    <value>Do you realy want to delete all finished tasks?</value>
+  </data>
+  <data name="S0000296" xml:space="preserve">
+    <value>Import from file</value>
+  </data>
+  <data name="S0000297" xml:space="preserve">
+    <value>Clear table</value>
+  </data>
+  <data name="S0000298" xml:space="preserve">
+    <value>Updates</value>
+  </data>
+  <data name="S0000299" xml:space="preserve">
+    <value>Check for updates at startup</value>
+  </data>
+  <data name="S0000300" xml:space="preserve">
+    <value>Random line/Doorway</value>
+  </data>
+  <data name="S0000301" xml:space="preserve">
+    <value>Copy/Paste: Line by line</value>
+  </data>
+  <data name="S0000302" xml:space="preserve">
+    <value>From file</value>
+  </data>
+  <data name="S0000303" xml:space="preserve">
+    <value>From file (translit)</value>
+  </data>
+  <data name="S0000304" xml:space="preserve">
+    <value>Category count (0;0 - all)</value>
+  </data>
+  <data name="S0000305" xml:space="preserve">
+    <value>Relative URLs</value>
+  </data>
+  <data name="S0000400" xml:space="preserve">
+    <value> Starting...</value>
+  </data>
+  <data name="S0000401" xml:space="preserve">
+    <value> Calculating number of threads...</value>
+  </data>
+  <data name="S0000402" xml:space="preserve">
+    <value> Created thread #</value>
+  </data>
+  <data name="S0000403" xml:space="preserve">
+    <value> All done</value>
+  </data>
+  <data name="S0000404" xml:space="preserve">
+    <value> Thread #</value>
+  </data>
+  <data name="S0000405" xml:space="preserve">
+    <value> Doorway #</value>
+  </data>
+  <data name="S0000406" xml:space="preserve">
+    <value> starting...</value>
+  </data>
+  <data name="S0000407" xml:space="preserve">
+    <value> Critical error occured!</value>
+  </data>
+  <data name="S0000408" xml:space="preserve">
+    <value> saving...</value>
+  </data>
+  <data name="S0000409" xml:space="preserve">
+    <value> Saving...</value>
+  </data>
+  <data name="S0000410" xml:space="preserve">
+    <value> uploading...</value>
+  </data>
+  <data name="S0000411" xml:space="preserve">
+    <value> Uploading...</value>
+  </data>
+  <data name="S0000412" xml:space="preserve">
+    <value> created succesfully</value>
+  </data>
+  <data name="S0000413" xml:space="preserve">
+    <value> Doorway created succesfully</value>
+  </data>
+  <data name="S0000414" xml:space="preserve">
+    <value>. Settings: Start Doorway: </value>
+  </data>
+  <data name="S0000415" xml:space="preserve">
+    <value>; End Doorway: </value>
+  </data>
+  <data name="S0000416" xml:space="preserve">
+    <value> Checking settings...</value>
+  </data>
+  <data name="S0000417" xml:space="preserve">
+    <value> Template doesn't exists</value>
+  </data>
+  <data name="S0000418" xml:space="preserve">
+    <value> Text doesn't exists</value>
+  </data>
+  <data name="S0000419" xml:space="preserve">
+    <value> Keywords doesn't exists</value>
+  </data>
+  <data name="S0000420" xml:space="preserve">
+    <value> Synonyms doesn't exists, deactivating synonyms</value>
+  </data>
+  <data name="S0000421" xml:space="preserve">
+    <value> Merging keywords doesn't exists, deactivating marging using</value>
+  </data>
+  <data name="S0000422" xml:space="preserve">
+    <value> Keywords for category distribution doesn't exists, deactivating category distribution "If Contains"</value>
+  </data>
+  <data name="S0000423" xml:space="preserve">
+    <value> Creating file macroses...</value>
+  </data>
+  <data name="S0000424" xml:space="preserve">
+    <value> Template for HTML SiteMap not found, deactivating creating HTML SiteMap...</value>
+  </data>
+  <data name="S0000425" xml:space="preserve">
+    <value> Selecting keywords...</value>
+  </data>
+  <data name="S0000426" xml:space="preserve">
+    <value> Creating folders...</value>
+  </data>
+  <data name="S0000427" xml:space="preserve">
+    <value> Copying template files...</value>
+  </data>
+  <data name="S0000428" xml:space="preserve">
+    <value> Copying/generating/parsing images...</value>
+  </data>
+  <data name="S0000429" xml:space="preserve">
+    <value> Creating php file...</value>
+  </data>
+  <data name="S0000430" xml:space="preserve">
+    <value> Creating robots.txt...</value>
+  </data>
+  <data name="S0000431" xml:space="preserve">
+    <value> Creating pages names...</value>
+  </data>
+  <data name="S0000432" xml:space="preserve">
+    <value> Creating spam-list...</value>
+  </data>
+  <data name="S0000433" xml:space="preserve">
+    <value> Creating pages...</value>
+  </data>
+  <data name="S0000434" xml:space="preserve">
+    <value> Creating RSS feed...</value>
+  </data>
+  <data name="S0000435" xml:space="preserve">
+    <value> Error: </value>
+  </data>
+  <data name="S0000436" xml:space="preserve">
+    <value> Selected </value>
+  </data>
+  <data name="S0000437" xml:space="preserve">
+    <value> keyword(s)</value>
+  </data>
+  <data name="S0000438" xml:space="preserve">
+    <value> Doorway will be saved to </value>
+  </data>
+  <data name="S0000439" xml:space="preserve">
+    <value> Clearing doorway folder...</value>
+  </data>
+  <data name="S0000440" xml:space="preserve">
+    <value> Parsing images...</value>
+  </data>
+  <data name="S0000441" xml:space="preserve">
+    <value> Copying images...</value>
+  </data>
+  <data name="S0000442" xml:space="preserve">
+    <value> Generating images...</value>
+  </data>
+  <data name="S0000443" xml:space="preserve">
+    <value />
+  </data>
+  <data name="S0000444" xml:space="preserve">
+    <value />
+  </data>
+  <data name="S0000445" xml:space="preserve">
+    <value> Copied </value>
+  </data>
+  <data name="S0000446" xml:space="preserve">
+    <value> image(s)</value>
+  </data>
+  <data name="S0000447" xml:space="preserve">
+    <value> Generated </value>
+  </data>
+  <data name="S0000448" xml:space="preserve">
+    <value> Created </value>
+  </data>
+  <data name="S0000449" xml:space="preserve">
+    <value> category(s)</value>
+  </data>
+  <data name="S0000450" xml:space="preserve">
+    <value> Creating category list...</value>
+  </data>
+  <data name="S0000451" xml:space="preserve">
+    <value> Creating keywords...</value>
+  </data>
+  <data name="S0000452" xml:space="preserve">
+    <value> Filling pages data...</value>
+  </data>
+  <data name="S0000453" xml:space="preserve">
+    <value> Creating XML SiteMap...</value>
+  </data>
+  <data name="S0000454" xml:space="preserve">
+    <value> Creating HTML SiteMap...</value>
+  </data>
+  <data name="S0000455" xml:space="preserve">
+    <value> HTML sitemap created, pages: </value>
+  </data>
+  <data name="S0000456" xml:space="preserve">
+    <value> XML sitemap created</value>
+  </data>
+  <data name="S0000457" xml:space="preserve">
+    <value> Creating page #</value>
+  </data>
+  <data name="S0000458" xml:space="preserve">
+    <value>, type: </value>
+  </data>
+  <data name="S0000459" xml:space="preserve">
+    <value>Static Page</value>
+  </data>
+  <data name="S0000460" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="S0000461" xml:space="preserve">
+    <value>Category Continue</value>
+  </data>
+  <data name="S0000462" xml:space="preserve">
+    <value>Index Continue</value>
+  </data>
+  <data name="S0000463" xml:space="preserve">
+    <value> Creating base content...</value>
+  </data>
+  <data name="S0000464" xml:space="preserve">
+    <value> Replacing macroses...</value>
+  </data>
+  <data name="S0000465" xml:space="preserve">
+    <value> Creating archive...</value>
+  </data>
+  <data name="S0000466" xml:space="preserve">
+    <value> Deleting files...</value>
+  </data>
+  <data name="S0000467" xml:space="preserve">
+    <value> FileZilla project saved</value>
+  </data>
+  <data name="S0000468" xml:space="preserve">
+    <value>FTP Thread #</value>
+  </data>
+  <data name="S0000469" xml:space="preserve">
+    <value>. Connecting to FTP server...</value>
+  </data>
+  <data name="S0000470" xml:space="preserve">
+    <value>. Can't connect to FTP server</value>
+  </data>
+  <data name="S0000471" xml:space="preserve">
+    <value>. Uploading </value>
+  </data>
+  <data name="S0000472" xml:space="preserve">
+    <value> Replacing random macroses...</value>
+  </data>
+  <data name="S0000473" xml:space="preserve">
+    <value> Replacing block macroses...</value>
+  </data>
+  <data name="S0000474" xml:space="preserve">
+    <value> Replacing regular macroses...</value>
+  </data>
+  <data name="S0000475" xml:space="preserve">
+    <value> Replacing text macroses...</value>
+  </data>
+  <data name="S0000476" xml:space="preserve">
+    <value> Replacing file macroses...</value>
+  </data>
+  <data name="S0000477" xml:space="preserve">
+    <value> Replacing [BLOCK] macroses...</value>
+  </data>
+  <data name="S0000478" xml:space="preserve">
+    <value> Replacing [CATEGORIES] macroses...</value>
+  </data>
+  <data name="S0000479" xml:space="preserve">
+    <value> Replacing [CATEGORYMENUBLOCK] macroses...</value>
+  </data>
+  <data name="S0000480" xml:space="preserve">
+    <value> Replacing [STATICBLOCK] macroses...</value>
+  </data>
+  <data name="S0000481" xml:space="preserve">
+    <value> Replacing [MENUBLOCK] macroses...</value>
+  </data>
+  <data name="S0000482" xml:space="preserve">
+    <value> Replacing [NETBLOCK] macroses...</value>
+  </data>
+  <data name="S0000483" xml:space="preserve">
+    <value> Replacing [USERBLOCK1] macroses...</value>
+  </data>
+  <data name="S0000484" xml:space="preserve">
+    <value> Replacing [USERBLOCK2] macroses...</value>
+  </data>
+  <data name="S0000485" xml:space="preserve">
+    <value> Replacing [USERBLOCK3] macroses...</value>
+  </data>
+  <data name="S0000486" xml:space="preserve">
+    <value> Replacing [USERBLOCK4] macroses...</value>
+  </data>
+  <data name="S0000487" xml:space="preserve">
+    <value> Replacing [USERBLOCK5] macroses...</value>
+  </data>
+  <data name="S0000488" xml:space="preserve">
+    <value> Replacing [USERBLOCK6] macroses...</value>
+  </data>
+  <data name="S0000489" xml:space="preserve">
+    <value> Replacing [MAPBLOCK] macroses...</value>
+  </data>
+  <data name="S0000490" xml:space="preserve">
+    <value> RSS feed saved</value>
+  </data>
+  <data name="S0000491" xml:space="preserve">
+    <value> Loading file macroses content...</value>
+  </data>
+  <data name="S0000492" xml:space="preserve">
+    <value> Saving file: </value>
+  </data>
+  <data name="S0000493" xml:space="preserve">
+    <value> Error while saving file: </value>
+  </data>
+  <data name="S0000494" xml:space="preserve">
+    <value> File: </value>
+  </data>
+  <data name="S0000495" xml:space="preserve">
+    <value>, for macross </value>
+  </data>
+  <data name="S0000496" xml:space="preserve">
+    <value> doesn't exists</value>
+  </data>
+  <data name="S0000497" xml:space="preserve">
+    <value> File upload error: </value>
+  </data>
+  <data name="S0000498" xml:space="preserve">
+    <value>Custom Page</value>
+  </data>
+  <data name="S0000499" xml:space="preserve">
+    <value> Replacing encript macroses...</value>
+  </data>
+  <data name="S0000500" xml:space="preserve">
+    <value> Replacing [CUSOMBLOCK] macroses...</value>
+  </data>
+  <data name="S0000501" xml:space="preserve">
+    <value>Number (global)</value>
+  </data>
+  <data name="S0000502" xml:space="preserve">
+    <value>Number (local)</value>
+  </data>
+  <data name="S0000503" xml:space="preserve">
+    <value>Comma-Connection</value>
+  </data>
+  <data name="S0000504" xml:space="preserve">
+    <value>Random Comma-Connection</value>
+  </data>
+  <data name="S0000505" xml:space="preserve">
+    <value>Reverse</value>
+  </data>
+  <data name="S0000506" xml:space="preserve">
+    <value>Reverse: Line by line</value>
+  </data>
+  <data name="S0000507" xml:space="preserve">
+    <value>Exclude category keywords from page keywords</value>
+  </data>
+  <data name="S0000508" xml:space="preserve">
+    <value>Advanced Reverse</value>
+  </data>
+  <data name="S0000509" xml:space="preserve">
+    <value>Advanced Reverse: Line by line</value>
+  </data>
+  <data name="S0000510" xml:space="preserve">
+    <value>Copy/Paste: Blocks</value>
+  </data>
+  <data name="S0000511" xml:space="preserve">
+    <value>Reverse: Blocks</value>
+  </data>
+  <data name="S0000512" xml:space="preserve">
+    <value>Advanced Reverse: Blocks</value>
+  </data>
+  <data name="S0000513" xml:space="preserve">
+    <value>File dates</value>
+  </data>
+  <data name="S0000514" xml:space="preserve">
+    <value>Auto HTML</value>
+  </data>
+  <data name="S0000515" xml:space="preserve">
+    <value>XML + Auto HTML</value>
+  </data>
+  <data name="S0000516" xml:space="preserve">
+    <value>Site map</value>
+  </data>
+  <data name="S0000517" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="S0000518" xml:space="preserve">
+    <value>PHP + SQLite</value>
+  </data>
+  <data name="S0000519" xml:space="preserve">
+    <value>Apply default</value>
+  </data>
+  <data name="S0000520" xml:space="preserve">
+    <value> Template</value>
+  </data>
+  <data name="S0000521" xml:space="preserve">
+    <value> Deleting unused image: </value>
+  </data>
+  <data name="S0000522" xml:space="preserve">
+    <value>Please check page names correctness!</value>
+  </data>
+  <data name="S0000523" xml:space="preserve">
+    <value>Links in Text</value>
+  </data>
+  <data name="S0000524" xml:space="preserve">
+    <value>Insert external links in text</value>
+  </data>
+  <data name="S0000525" xml:space="preserve">
+    <value>Count on all types of pages</value>
+  </data>
+  <data name="S0000526" xml:space="preserve">
+    <value>Count on regular pages</value>
+  </data>
+  <data name="S0001000" xml:space="preserve">
+    <value>Give to WorkSpaces understandable names.</value>
+  </data>
+  <data name="S0001001" xml:space="preserve">
+    <value>WorkSpace isn't a task.</value>
+  </data>
+  <data name="S0001002" xml:space="preserve">
+    <value>WorkSpace is container, where all data is located.</value>
+  </data>
+  <data name="S0001003" xml:space="preserve">
+    <value>WorkSpace contains statistics of it using.</value>
+  </data>
+  <data name="S0001004" xml:space="preserve">
+    <value>When WorkSpace deleting, all imported data and tasks will be deleted too.</value>
+  </data>
+  <data name="S0001005" xml:space="preserve">
+    <value>Give to keywords understandable names.</value>
+  </data>
+  <data name="S0001006" xml:space="preserve">
+    <value>Keywords contains statistics too.</value>
+  </data>
+  <data name="S0001007" xml:space="preserve">
+    <value>Give to templates understable names.</value>
+  </data>
+  <data name="S0001008" xml:space="preserve">
+    <value>Templates contains statistics of it using.</value>
+  </data>
+  <data name="S0001009" xml:space="preserve">
+    <value>Give to texts understable names.</value>
+  </data>
+  <data name="S0001010" xml:space="preserve">
+    <value>Texts contains statistics of it using.</value>
+  </data>
+  <data name="S0001011" xml:space="preserve">
+    <value>Give to presets understable names.</value>
+  </data>
+  <data name="S0001012" xml:space="preserve">
+    <value>Presets contains statistics of it using.</value>
+  </data>
+  <data name="S0001013" xml:space="preserve">
+    <value>Export allow you to save a copy of your data, or share it with others.</value>
+  </data>
+  <data name="S0001014" xml:space="preserve">
+    <value>For each doorway different log.</value>
+  </data>
+  <data name="S0001015" xml:space="preserve">
+    <value>Log shows all actions, that program do.</value>
+  </data>
+  <data name="S0001016" xml:space="preserve">
+    <value>Spam-links can be use in mass posting programs.</value>
+  </data>
+  <data name="S0001017" xml:space="preserve">
+    <value>Give to tasks understandable tasks.</value>
+  </data>
+  <data name="S0001018" xml:space="preserve">
+    <value>You can set start date and time, when task will be started.</value>
+  </data>
+  <data name="S0001019" xml:space="preserve">
+    <value>Presets will help you to increase speed of tasks creating.</value>
+  </data>
+  <data name="S0001020" xml:space="preserve">
+    <value>In order to start, create WorkSpace and import keywords, texts, templates in it.</value>
+  </data>
+  <data name="S0001021" xml:space="preserve">
+    <value>Statistics will help you to find old an unused data.</value>
+  </data>
+  <data name="S0001022" xml:space="preserve">
+    <value>Plan tasks in time.</value>
+  </data>
+  <data name="S0001023" xml:space="preserve">
+    <value>You can create a few doorways in one task.</value>
+  </data>
+  <data name="S0001024" xml:space="preserve">
+    <value>If you work with few themes - distribute data beetween WorkSpaces.</value>
+  </data>
+  <data name="S0001025" xml:space="preserve">
+    <value>Old tasks are deleting with time. You can change it in Options.</value>
+  </data>
+  <data name="S0001026" xml:space="preserve">
+    <value>Software can automatically start with Windows.</value>
+  </data>
+  <data name="S0001027" xml:space="preserve">
+    <value>Check for updates.</value>
+  </data>
+  <data name="S0001028" xml:space="preserve">
+    <value>You can create tasks for many month in future.</value>
+  </data>
+  <data name="S0001029" xml:space="preserve">
+    <value>WorkSpace it isn't a task.</value>
+  </data>
+</root>

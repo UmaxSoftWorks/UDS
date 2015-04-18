@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A1132132-2D02-4627-901A-22EF9B2AA898}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Doorway_Studio</RootNamespace>
+    <AssemblyName>Umax Doorway Studio</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>Resources\MainIcon.ico</ApplicationIcon>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SQLite.Net">
+      <HintPath>.\SQLite.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XPTable, Version=1.0.2.0, Culture=neutral, PublicKeyToken=24950705800d2198">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\XPTable.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Text\Classes\RandomKeywordCollection.cs" />
+    <Compile Include="Text\Classes\TextTokensReplacer.cs" />
+    <Compile Include="Text\Classes\TemplatePage.cs" />
+    <Compile Include="Text\Classes\TextTokensReplacerContext.cs" />
+    <Compile Include="Helpers\IOHelper.cs" />
+    <Compile Include="Helpers\StringHelper.cs" />
+    <Compile Include="Helpers\StringListHelper.cs" />
+    <Compile Include="Helpers\TextHelper.cs" />
+    <Compile Include="Images\Image.cs" />
+    <Compile Include="Images\ImageRepository.cs" />
+    <Compile Include="Images\ImageRepositoryContext.cs" />
+    <Compile Include="Settings\Automator\Attributes.cs" />
+    <Compile Include="Settings\Automator\Descriptors.cs" />
+    <Compile Include="Settings\FileMacross.cs" />
+    <Compile Include="Settings\FTPSettings.cs" />
+    <Compile Include="Settings\PresetSettings.cs" />
+    <Compile Include="Settings\TagSettings.cs" />
+    <Compile Include="Text\Container.cs" />
+    <Compile Include="Text\TGBlockReverse.cs" />
+    <Compile Include="Text\TGBlockAdvancedReverse.cs" />
+    <Compile Include="Text\TGBlockCopyPaste.cs" />
+    <Compile Include="Text\TGAdvancedReverse.cs" />
+    <Compile Include="Text\TGLineByLineAdvancedReverse.cs" />
+    <Compile Include="Text\TGLineByLineReverse.cs" />
+    <Compile Include="Text\TGReverse.cs" />
+    <Compile Include="Windows\ABox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ABox.Designer.cs">
+      <DependentUpon>ABox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BlackList.cs" />
+    <Compile Include="Text\TGRandomCommaConnection.cs" />
+    <Compile Include="Text\TGCommaConnection.cs" />
+    <Compile Include="Windows\Import\ImportBigText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Import\ImportBigText.Designer.cs">
+      <DependentUpon>ImportBigText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text\TGBigram.cs" />
+    <Compile Include="Text\TGLineByLineCopyPaste.cs" />
+    <Compile Include="Text\TGTrigram.cs" />
+    <Compile Include="Windows\Updater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Updater.Designer.cs">
+      <DependentUpon>Updater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doorway.cs" />
+    <Compile Include="Windows\EULA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\EULA.Designer.cs">
+      <DependentUpon>EULA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ExportEdit\ExEdPresets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ExportEdit\ExEdPresets.Designer.cs">
+      <DependentUpon>ExEdPresets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ExportEdit\ExEdTemplates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ExportEdit\ExEdTemplates.Designer.cs">
+      <DependentUpon>ExEdTemplates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileMacrossData.cs" />
+    <Compile Include="FTP.cs" />
+    <Compile Include="IESound.cs" />
+    <Compile Include="Images\ImageBuilder.cs" />
+    <Compile Include="Windows\Import\ImportPreset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Import\ImportPreset.Designer.cs">
+      <DependentUpon>ImportPreset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Import\ImportTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Import\ImportTemplate.Designer.cs">
+      <DependentUpon>ImportTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Page.cs" />
+    <Compile Include="StartData.cs" />
+    <Compile Include="StatisticsClasses.cs" />
+    <Compile Include="Windows\LogSpam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\LogSpam.Designer.cs">
+      <DependentUpon>LogSpam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\NewEdTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\NewEdTask.Designer.cs">
+      <DependentUpon>NewEdTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Preset.cs" />
+    <Compile Include="Windows\Statistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Statistics.Designer.cs">
+      <DependentUpon>Statistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TarStorer.cs" />
+    <Compile Include="Task.cs" />
+    <Compile Include="English.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>English.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ExportEdit\ExEdKeywords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ExportEdit\ExEdKeywords.Designer.cs">
+      <DependentUpon>ExEdKeywords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ExportEdit\ExEdText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ExportEdit\ExEdText.Designer.cs">
+      <DependentUpon>ExEdText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Import\ImportKeywords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Import\ImportKeywords.Designer.cs">
+      <DependentUpon>ImportKeywords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Import\ImportText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Import\ImportText.Designer.cs">
+      <DependentUpon>ImportText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyWord.cs" />
+    <Compile Include="Russian.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Russian.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\StartUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\StartUp.Designer.cs">
+      <DependentUpon>StartUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\NewWS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\NewWS.Designer.cs">
+      <DependentUpon>NewWS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Windows\ABox.resx">
+      <DependentUpon>ABox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Import\ImportBigText.resx">
+      <DependentUpon>ImportBigText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Updater.resx">
+      <DependentUpon>Updater.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="English.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>English.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\EULA.resx">
+      <DependentUpon>EULA.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ExportEdit\ExEdKeywords.resx">
+      <DependentUpon>ExEdKeywords.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ExportEdit\ExEdPresets.resx">
+      <DependentUpon>ExEdPresets.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ExportEdit\ExEdTemplates.resx">
+      <DependentUpon>ExEdTemplates.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ExportEdit\ExEdText.resx">
+      <DependentUpon>ExEdText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Import\ImportKeywords.resx">
+      <DependentUpon>ImportKeywords.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Import\ImportPreset.resx">
+      <DependentUpon>ImportPreset.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Import\ImportTemplate.resx">
+      <DependentUpon>ImportTemplate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Import\ImportText.resx">
+      <DependentUpon>ImportText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\LogSpam.resx">
+      <DependentUpon>LogSpam.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\NewEdTask.resx">
+      <DependentUpon>NewEdTask.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Russian.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Russian.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\StartUp.resx">
+      <DependentUpon>StartUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\NewWS.resx">
+      <DependentUpon>NewWS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Statistics.resx">
+      <DependentUpon>Statistics.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TaskControl.resx">
+      <DependentUpon>TaskControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Tasks.resx">
+      <DependentUpon>Tasks.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TaskControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TaskControl.Designer.cs">
+      <DependentUpon>TaskControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Tasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Tasks.Designer.cs">
+      <DependentUpon>Tasks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Template.cs" />
+    <Compile Include="Text.cs" />
+    <Compile Include="Text\TextGenerator.cs" />
+    <Compile Include="Text\TGConceptualGraph.cs" />
+    <Compile Include="Text\TGCopyPaste.cs" />
+    <Compile Include="Text\TGMarkov.cs" />
+    <Compile Include="Text\TGMarkovClassic.cs" />
+    <Compile Include="Text\TGMix.cs" />
+    <Compile Include="Text\TGRandom.cs" />
+    <Compile Include="WorkSpace.cs" />
+    <Compile Include="ZipStorer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WorkSpace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hardware.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Item.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\File.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Statistic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PaintBrush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Template.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Languages.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallDone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallPause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallRunning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallStop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Stuff\Brands.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
