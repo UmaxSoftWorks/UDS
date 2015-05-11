@@ -4275,7 +4275,7 @@ namespace Doorway_Studio
 
             while (Content.Contains("[[") && Content.Contains("]]"))
             {
-                startPosition = Content.LastIndexOf("[[");
+                startPosition = Content.IndexOf("[[");
                 int endPosition = Content.IndexOf("]]");
 
                 if (endPosition < startPosition)
